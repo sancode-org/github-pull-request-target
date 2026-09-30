@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-29T18:21:02.938Z",
+  "generatedAt": "2026-09-30T18:19:13.374Z",
   "query": "pull_request_target path:.github/workflows in:file -fork:true",
   "scanMode": "limited",
   "scanMinutesRequested": null,
-  "scanStartedAt": "2026-09-29T18:15:09.952Z",
-  "scanElapsedSeconds": 1199,
+  "scanStartedAt": "2026-09-30T18:12:06.933Z",
+  "scanElapsedSeconds": 1342,
   "searchElapsedSeconds": 0,
-  "totalCount": 79872,
+  "totalCount": 78848,
   "incompleteResults": false,
-  "retrievedFileCount": 720,
+  "retrievedFileCount": 706,
   "searchResultLimit": 1000,
   "searchResultLimitReached": true,
-  "searchRequestCount": 10,
+  "searchRequestCount": 9,
   "shardCount": 0,
   "shardTotalCount": null,
   "cappedShardCount": null,
   "shards": [],
-  "repositoryCount": 706,
+  "repositoryCount": 696,
   "repositories": [
     {
       "fullName": "flutter/flutter",
       "url": "https://github.com/flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "stars": 179148,
+      "stars": 179152,
       "language": "Dart",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T18:14:43Z",
-      "updatedAt": "2026-09-29T17:28:41Z",
+      "pushedAt": "2026-09-30T17:49:32Z",
+      "updatedAt": "2026-09-30T17:23:19Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/revert.yml",
-          "url": "https://github.com/flutter/flutter/blob/22e75fa05ffe3e7ffedc9ae8c483bd891750e402/.github/workflows/revert.yml"
+          "url": "https://github.com/flutter/flutter/blob/d649d2bfebfeb0018b7333bd7bee1d5127661da2/.github/workflows/revert.yml"
         }
       ]
     },
@@ -39,16 +39,16 @@
       "fullName": "rtk-ai/rtk",
       "url": "https://github.com/rtk-ai/rtk",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-      "stars": 82008,
+      "stars": 82103,
       "language": "Rust",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-29T13:37:07Z",
-      "updatedAt": "2026-09-29T18:02:54Z",
+      "pushedAt": "2026-09-30T16:42:38Z",
+      "updatedAt": "2026-09-30T18:09:44Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/next-release.yml",
-          "url": "https://github.com/rtk-ai/rtk/blob/6d4b77eadee1c66dc1f68466ad77e96d1b6e4989/.github/workflows/next-release.yml"
+          "url": "https://github.com/rtk-ai/rtk/blob/77a0c6884a9aa5e321d26ab353c3dee3f5f66938/.github/workflows/next-release.yml"
         }
       ]
     },
@@ -56,16 +56,33 @@
       "fullName": "apache/superset",
       "url": "https://github.com/apache/superset",
       "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
-      "stars": 74970,
+      "stars": 74987,
       "language": "Python",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T18:12:21Z",
-      "updatedAt": "2026-09-29T17:31:55Z",
+      "pushedAt": "2026-09-30T18:17:27Z",
+      "updatedAt": "2026-09-30T18:17:32Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/label-merge-conflicts.yml",
-          "url": "https://github.com/apache/superset/blob/f639b22c6c869dde21c1fb22c416085745202341/.github/workflows/label-merge-conflicts.yml"
+          "url": "https://github.com/apache/superset/blob/e93f8ce638c4ce4417e5e3c3ed59f1181604fbd7/.github/workflows/label-merge-conflicts.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "protocolbuffers/protobuf",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "stars": 72078,
+      "language": "C++",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T17:37:17Z",
+      "updatedAt": "2026-09-30T16:17:51Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/README.md",
+          "url": "https://github.com/protocolbuffers/protobuf/blob/745d763b6c7898f39a0a6a3e94f740a057489c79/.github/workflows/README.md"
         }
       ]
     },
@@ -73,11 +90,11 @@
       "fullName": "ReactiveX/RxJava",
       "url": "https://github.com/ReactiveX/RxJava",
       "description": "RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.",
-      "stars": 48190,
+      "stars": 48188,
       "language": "Java",
       "defaultBranch": "4.x",
       "pushedAt": "2026-09-29T17:03:45Z",
-      "updatedAt": "2026-09-29T18:11:37Z",
+      "updatedAt": "2026-09-30T13:55:58Z",
       "fork": false,
       "files": [
         {
@@ -90,16 +107,16 @@
       "fullName": "hashicorp/vault",
       "url": "https://github.com/hashicorp/vault",
       "description": "A tool for secrets management, encryption as a service, and privileged access management",
-      "stars": 36320,
+      "stars": 36321,
       "language": "Go",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T17:02:59Z",
-      "updatedAt": "2026-09-29T17:03:35Z",
+      "pushedAt": "2026-09-30T18:02:51Z",
+      "updatedAt": "2026-09-30T18:03:38Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/remove-labels.yml",
-          "url": "https://github.com/hashicorp/vault/blob/b6e58425a43f794c44cafe1af969b3ccffccf27e/.github/workflows/remove-labels.yml"
+          "url": "https://github.com/hashicorp/vault/blob/ddba03428678f86a05e22d6face567c671a6b9a0/.github/workflows/remove-labels.yml"
         }
       ]
     },
@@ -107,16 +124,16 @@
       "fullName": "onyx-dot-app/onyx",
       "url": "https://github.com/onyx-dot-app/onyx",
       "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-      "stars": 32288,
+      "stars": 32300,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:12:36Z",
-      "updatedAt": "2026-09-29T18:03:02Z",
+      "pushedAt": "2026-09-30T18:11:03Z",
+      "updatedAt": "2026-09-30T18:09:59Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-ee-ownership-check.yml",
-          "url": "https://github.com/onyx-dot-app/onyx/blob/a7a17725f83ae34af3c498b0fd4f1a42c9c50989/.github/workflows/pr-ee-ownership-check.yml"
+          "url": "https://github.com/onyx-dot-app/onyx/blob/e4eb5ffb2a617763a6244db01b4b6380fe6a453f/.github/workflows/pr-ee-ownership-check.yml"
         }
       ]
     },
@@ -124,16 +141,16 @@
       "fullName": "ruby/ruby",
       "url": "https://github.com/ruby/ruby",
       "description": "The Ruby Programming Language",
-      "stars": 23763,
+      "stars": 23764,
       "language": "Ruby",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T17:48:18Z",
-      "updatedAt": "2026-09-29T17:47:51Z",
+      "pushedAt": "2026-09-30T15:42:31Z",
+      "updatedAt": "2026-09-30T17:22:37Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/labeler.yml",
-          "url": "https://github.com/ruby/ruby/blob/8fdf4342b58344372b651b3c7368a232825cc911/.github/workflows/labeler.yml"
+          "url": "https://github.com/ruby/ruby/blob/4f9ec01a51de89f41347804a2f8ea8a9159b0461/.github/workflows/labeler.yml"
         }
       ]
     },
@@ -141,16 +158,16 @@
       "fullName": "cube-js/cube",
       "url": "https://github.com/cube-js/cube",
       "description": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
-      "stars": 20936,
+      "stars": 20941,
       "language": "Rust",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T18:01:09Z",
-      "updatedAt": "2026-09-29T16:57:26Z",
+      "pushedAt": "2026-09-30T17:54:29Z",
+      "updatedAt": "2026-09-30T17:20:53Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/labeler.yml",
-          "url": "https://github.com/cube-js/cube/blob/64914126f4705af1d56831099b9237a39b49daf7/.github/workflows/labeler.yml"
+          "url": "https://github.com/cube-js/cube/blob/a62e70488b3a67cbec204fa58711cc7e938ad9d9/.github/workflows/labeler.yml"
         }
       ]
     },
@@ -158,16 +175,16 @@
       "fullName": "MonoGame/MonoGame",
       "url": "https://github.com/MonoGame/MonoGame",
       "description": "One framework for creating powerful cross-platform games.",
-      "stars": 14470,
+      "stars": 14473,
       "language": "C#",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-29T18:10:54Z",
-      "updatedAt": "2026-09-29T16:29:47Z",
+      "pushedAt": "2026-09-30T16:44:05Z",
+      "updatedAt": "2026-09-30T14:13:15Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pullrequest_default.yml",
-          "url": "https://github.com/MonoGame/MonoGame/blob/3ce13bbb892086534d30c85eb2bb25b5babf8f9d/.github/workflows/pullrequest_default.yml"
+          "url": "https://github.com/MonoGame/MonoGame/blob/56894544ec3c6bb8e6cddce8dba45083e8a45c34/.github/workflows/pullrequest_default.yml"
         }
       ]
     },
@@ -175,16 +192,16 @@
       "fullName": "lollipopkit/flutter_server_box",
       "url": "https://github.com/lollipopkit/flutter_server_box",
       "description": "ServerBox - server status & toolbox",
-      "stars": 8756,
+      "stars": 8760,
       "language": "Dart",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T17:19:20Z",
-      "updatedAt": "2026-09-29T17:27:57Z",
+      "pushedAt": "2026-09-30T18:09:21Z",
+      "updatedAt": "2026-09-30T18:06:58Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/cla.yml",
-          "url": "https://github.com/lollipopkit/flutter_server_box/blob/a305cafc1d962f6290ce026e3aa5a534fb24e78e/.github/workflows/cla.yml"
+          "url": "https://github.com/lollipopkit/flutter_server_box/blob/f0d9ba85c712e67b2a24332019305d61edc4a093/.github/workflows/cla.yml"
         }
       ]
     },
@@ -195,13 +212,13 @@
       "stars": 8679,
       "language": "Java",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T18:05:57Z",
-      "updatedAt": "2026-09-29T18:14:42Z",
+      "pushedAt": "2026-09-30T17:50:42Z",
+      "updatedAt": "2026-09-30T17:50:49Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/beam_PostCommit_XVR_Direct.yml",
-          "url": "https://github.com/apache/beam/blob/2b35850258a85efe656201ccaf57cc0936bdc8b3/.github/workflows/beam_PostCommit_XVR_Direct.yml"
+          "url": "https://github.com/apache/beam/blob/b4623815617ef1fc3a2fbfd0bd4d5f96c2402a88/.github/workflows/beam_PostCommit_XVR_Direct.yml"
         }
       ]
     },
@@ -209,11 +226,11 @@
       "fullName": "oapi-codegen/oapi-codegen",
       "url": "https://github.com/oapi-codegen/oapi-codegen",
       "description": "Generate Go client and server boilerplate from OpenAPI 3 specifications",
-      "stars": 8600,
+      "stars": 8603,
       "language": "Go",
       "defaultBranch": "main",
       "pushedAt": "2026-09-29T04:37:44Z",
-      "updatedAt": "2026-09-29T08:56:30Z",
+      "updatedAt": "2026-09-30T16:27:14Z",
       "fork": false,
       "files": [
         {
@@ -226,16 +243,16 @@
       "fullName": "webiny/webiny-js",
       "url": "https://github.com/webiny/webiny-js",
       "description": "Open-source, self-hosted CMS platform on AWS serverless (Lambda, DynamoDB, S3). TypeScript framework with multi-tenancy, lifecycle hooks, GraphQL API, and AI-assisted development via MCP server. Built for developers at large organizations.",
-      "stars": 8049,
+      "stars": 8048,
       "language": "TypeScript",
       "defaultBranch": "next",
-      "pushedAt": "2026-09-29T15:45:35Z",
-      "updatedAt": "2026-09-29T15:38:31Z",
+      "pushedAt": "2026-09-30T13:52:15Z",
+      "updatedAt": "2026-09-30T13:53:18Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/wac/assignMilestone.wac.ts",
-          "url": "https://github.com/webiny/webiny-js/blob/a4bf60f9ca0df8fae87bdbf131f60aab904d05a3/.github/workflows/wac/assignMilestone.wac.ts"
+          "url": "https://github.com/webiny/webiny-js/blob/e6fe65a3747dc99fef15e1fad8af3e39143666f1/.github/workflows/wac/assignMilestone.wac.ts"
         }
       ]
     },
@@ -243,11 +260,11 @@
       "fullName": "boa-dev/boa",
       "url": "https://github.com/boa-dev/boa",
       "description": "Boa is an embeddable Javascript engine written in Rust.",
-      "stars": 7570,
+      "stars": 7572,
       "language": "Rust",
       "defaultBranch": "main",
       "pushedAt": "2026-09-26T08:06:43Z",
-      "updatedAt": "2026-09-29T13:38:51Z",
+      "updatedAt": "2026-09-30T15:49:03Z",
       "fork": false,
       "files": [
         {
@@ -277,11 +294,11 @@
       "fullName": "aws/aws-sam-cli",
       "url": "https://github.com/aws/aws-sam-cli",
       "description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
-      "stars": 6733,
+      "stars": 6734,
       "language": "Python",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-29T09:48:59Z",
-      "updatedAt": "2026-09-27T12:54:59Z",
+      "pushedAt": "2026-09-30T09:38:22Z",
+      "updatedAt": "2026-09-30T09:41:59Z",
       "fork": false,
       "files": [
         {
@@ -328,11 +345,11 @@
       "fullName": "AdventDevInc/kudu",
       "url": "https://github.com/AdventDevInc/kudu",
       "description": "Free Windows, Mac and Linux cleaner, scanner, and more.",
-      "stars": 3620,
+      "stars": 3625,
       "language": "TypeScript",
       "defaultBranch": "main",
       "pushedAt": "2026-09-29T05:11:28Z",
-      "updatedAt": "2026-09-29T17:48:02Z",
+      "updatedAt": "2026-09-30T16:22:30Z",
       "fork": false,
       "files": [
         {
@@ -345,11 +362,11 @@
       "fullName": "wojciech-kulik/FlashSpace",
       "url": "https://github.com/wojciech-kulik/FlashSpace",
       "description": "FlashSpace is a blazingly fast virtual workspace manager for macOS ⚡",
-      "stars": 3518,
+      "stars": 3519,
       "language": "Swift",
       "defaultBranch": "main",
       "pushedAt": "2026-09-17T21:02:06Z",
-      "updatedAt": "2026-09-29T10:19:52Z",
+      "updatedAt": "2026-09-30T17:14:00Z",
       "fork": false,
       "files": [
         {
@@ -362,11 +379,11 @@
       "fullName": "coreruleset/coreruleset",
       "url": "https://github.com/coreruleset/coreruleset",
       "description": "OWASP CRS (Official Repository)",
-      "stars": 3285,
+      "stars": 3287,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:07:45Z",
-      "updatedAt": "2026-09-29T16:11:37Z",
+      "pushedAt": "2026-09-30T18:08:15Z",
+      "updatedAt": "2026-09-30T02:56:27Z",
       "fork": false,
       "files": [
         {
@@ -379,11 +396,11 @@
       "fullName": "apecloud/kubeblocks",
       "url": "https://github.com/apecloud/kubeblocks",
       "description": "KubeBlocks is a Kubernetes Operator designed to manage a variety of databases and streaming systems, including MySQL, PostgreSQL, MongoDB, Redis, RabbitMQ, RocketMQ, and more, within Kubernetes environments.",
-      "stars": 3141,
+      "stars": 3140,
       "language": "Go",
       "defaultBranch": "main",
       "pushedAt": "2026-09-24T10:26:44Z",
-      "updatedAt": "2026-09-25T23:17:06Z",
+      "updatedAt": "2026-09-30T14:14:41Z",
       "fork": false,
       "files": [
         {
@@ -399,13 +416,13 @@
       "stars": 2986,
       "language": "Go",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T16:41:40Z",
-      "updatedAt": "2026-09-29T12:33:10Z",
+      "pushedAt": "2026-09-30T11:43:52Z",
+      "updatedAt": "2026-09-30T11:44:01Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/AGENTS.md",
-          "url": "https://github.com/filecoin-project/lotus/blob/17e6104ea442610eff589cc8a21c1f3254dd8758/.github/workflows/AGENTS.md"
+          "url": "https://github.com/filecoin-project/lotus/blob/418e18c52011b9610625149b0f08ca0be56e9d97/.github/workflows/AGENTS.md"
         }
       ]
     },
@@ -417,7 +434,7 @@
       "language": "Java",
       "defaultBranch": "master",
       "pushedAt": "2025-06-05T18:28:03Z",
-      "updatedAt": "2026-09-24T07:02:20Z",
+      "updatedAt": "2026-09-30T08:52:23Z",
       "fork": false,
       "files": [
         {
@@ -481,16 +498,16 @@
       "fullName": "datazip-inc/olake",
       "url": "https://github.com/datazip-inc/olake",
       "description": "OLake - Fastest Databases, Kafka & S3 Replication to Apache Iceberg with Table optimization (Called OLake Fusion). ⚡ Efficient, quick and scalable data ingestion for real-time analytics.  Supported sources :  Postgres, MongoDB, MySQL, Oracle, MSSql, DB2, Kafka, S3.",
-      "stars": 1466,
+      "stars": 1465,
       "language": "Go",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T13:55:18Z",
-      "updatedAt": "2026-09-29T13:44:14Z",
+      "pushedAt": "2026-09-30T15:51:50Z",
+      "updatedAt": "2026-09-30T15:51:35Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/ai-code-review.yml",
-          "url": "https://github.com/datazip-inc/olake/blob/db9f36222562c2af43dea14b5f8439a8ba8a344a/.github/workflows/ai-code-review.yml"
+          "url": "https://github.com/datazip-inc/olake/blob/00d70774a641caccbac9019fcd0f507eaf1e6135/.github/workflows/ai-code-review.yml"
         }
       ]
     },
@@ -501,13 +518,13 @@
       "stars": 1431,
       "language": "C#",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-29T17:47:41Z",
-      "updatedAt": "2026-09-29T09:50:18Z",
+      "pushedAt": "2026-09-30T10:08:43Z",
+      "updatedAt": "2026-09-30T10:08:47Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/Qodana.yml.disabled",
-          "url": "https://github.com/lookup-foundation/RevitLookup/blob/aaae2a5682455968d44c6f07653b19e8244a0f63/.github/workflows/Qodana.yml.disabled"
+          "url": "https://github.com/lookup-foundation/RevitLookup/blob/26c6eec526eef282ee48e41dc3754fe9deafedb4/.github/workflows/Qodana.yml.disabled"
         }
       ]
     },
@@ -518,7 +535,7 @@
       "stars": 1360,
       "language": "Go",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-28T05:36:39Z",
+      "pushedAt": "2026-09-30T07:59:13Z",
       "updatedAt": "2026-09-28T08:31:07Z",
       "fork": false,
       "files": [
@@ -569,11 +586,11 @@
       "fullName": "weaveworks/weave-gitops",
       "url": "https://github.com/weaveworks/weave-gitops",
       "description": "Weave GitOps is transitioning to a community driven project! It provides insights into your application deployments, and makes continuous delivery with GitOps easier to adopt and scale across your teams.",
-      "stars": 1131,
+      "stars": 1132,
       "language": "MDX",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T02:24:01Z",
-      "updatedAt": "2026-09-25T09:45:10Z",
+      "pushedAt": "2026-09-30T01:44:43Z",
+      "updatedAt": "2026-09-29T23:09:58Z",
       "fork": false,
       "files": [
         {
@@ -589,13 +606,13 @@
       "stars": 1123,
       "language": "Swift",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T15:58:57Z",
-      "updatedAt": "2026-09-29T15:34:36Z",
+      "pushedAt": "2026-09-30T16:01:17Z",
+      "updatedAt": "2026-09-30T15:57:26Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/validate-pr.yml",
-          "url": "https://github.com/getsentry/sentry-cocoa/blob/dd861d906a360b1a16a4a6f02e272093ab35989b/.github/workflows/validate-pr.yml"
+          "url": "https://github.com/getsentry/sentry-cocoa/blob/9b76ca08e983768fc403a9c3dd0690870d5f4fd8/.github/workflows/validate-pr.yml"
         }
       ]
     },
@@ -606,13 +623,13 @@
       "stars": 1041,
       "language": "PHP",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T14:23:06Z",
-      "updatedAt": "2026-09-29T14:23:01Z",
+      "pushedAt": "2026-09-30T15:36:05Z",
+      "updatedAt": "2026-09-30T14:25:54Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/test-vps-pr-deploy-cleanup.yaml",
-          "url": "https://github.com/pkp/ojs/blob/76ea58d26436be6d5d7f22f211cc09701cf58def/.github/workflows/test-vps-pr-deploy-cleanup.yaml"
+          "url": "https://github.com/pkp/ojs/blob/bade233f73f5a1ccfb7f29c48b8becdb278f1287/.github/workflows/test-vps-pr-deploy-cleanup.yaml"
         }
       ]
     },
@@ -654,16 +671,16 @@
       "fullName": "openboxes/openboxes",
       "url": "https://github.com/openboxes/openboxes",
       "description": "OpenBoxes is a warehouse management system designed to manage inventory and track stock movements for healthcare facilities.",
-      "stars": 906,
+      "stars": 907,
       "language": "Groovy",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-29T17:18:25Z",
-      "updatedAt": "2026-09-29T12:14:39Z",
+      "pushedAt": "2026-09-30T16:05:27Z",
+      "updatedAt": "2026-09-30T09:33:26Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/test-pull-request.yml",
-          "url": "https://github.com/openboxes/openboxes/blob/ecf75622e21aa1038f8c08dcdcee2bd69d633afd/.github/workflows/test-pull-request.yml"
+          "url": "https://github.com/openboxes/openboxes/blob/2d1eb0554aac1700e11695566424cdf6b974bd40/.github/workflows/test-pull-request.yml"
         }
       ]
     },
@@ -671,11 +688,11 @@
       "fullName": "apisyouwonthate/openapi.tools",
       "url": "https://github.com/apisyouwonthate/openapi.tools",
       "description": "The most comprehensive collection of quality OpenAPI tooling, curated by Phil Sturgeon and the team at APIs You Won't Hate.",
-      "stars": 844,
+      "stars": 846,
       "language": "TypeScript",
       "defaultBranch": "main",
       "pushedAt": "2026-09-28T17:29:23Z",
-      "updatedAt": "2026-09-28T17:29:29Z",
+      "updatedAt": "2026-09-30T15:22:02Z",
       "fork": false,
       "files": [
         {
@@ -688,16 +705,16 @@
       "fullName": "ls1intum/Artemis",
       "url": "https://github.com/ls1intum/Artemis",
       "description": "Artemis - Interactive Learning with Automated Feedback",
-      "stars": 813,
+      "stars": 814,
       "language": "Java",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-29T18:06:12Z",
-      "updatedAt": "2026-09-29T11:27:20Z",
+      "pushedAt": "2026-09-30T17:20:42Z",
+      "updatedAt": "2026-09-30T15:20:03Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pullrequest-readyforreview.yml",
-          "url": "https://github.com/ls1intum/Artemis/blob/5dec5705a2dac0823e69b74f342bc2ac962bdfcd/.github/workflows/pullrequest-readyforreview.yml"
+          "url": "https://github.com/ls1intum/Artemis/blob/d77f7d8a745164ca8b26fd41ff63304480fa6e16/.github/workflows/pullrequest-readyforreview.yml"
         }
       ]
     },
@@ -705,11 +722,11 @@
       "fullName": "npmgraph/npmgraph",
       "url": "https://github.com/npmgraph/npmgraph",
       "description": "A tool for exploring NPM modules and dependencies",
-      "stars": 790,
+      "stars": 792,
       "language": "TypeScript",
       "defaultBranch": "main",
       "pushedAt": "2026-09-24T07:17:45Z",
-      "updatedAt": "2026-09-28T19:10:50Z",
+      "updatedAt": "2026-09-30T18:03:04Z",
       "fork": false,
       "files": [
         {
@@ -722,11 +739,11 @@
       "fullName": "linuxmint/cinnamon-spices-applets",
       "url": "https://github.com/linuxmint/cinnamon-spices-applets",
       "description": "Applets for the Cinnamon desktop",
-      "stars": 759,
+      "stars": 760,
       "language": "JavaScript",
       "defaultBranch": "master",
       "pushedAt": "2026-09-28T12:33:41Z",
-      "updatedAt": "2026-09-29T16:51:25Z",
+      "updatedAt": "2026-09-30T11:39:42Z",
       "fork": false,
       "files": [
         {
@@ -776,13 +793,13 @@
       "stars": 652,
       "language": "C++",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-26T05:35:20Z",
-      "updatedAt": "2026-09-27T20:56:02Z",
+      "pushedAt": "2026-09-30T15:13:25Z",
+      "updatedAt": "2026-09-30T15:12:18Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/slack-pr-notification.yml",
-          "url": "https://github.com/uxlfoundation/oneDAL/blob/3120d0ab00a2f4b20b3ce1e9fb3929b969a6f417/.github/workflows/slack-pr-notification.yml"
+          "url": "https://github.com/uxlfoundation/oneDAL/blob/eddfd7497f679e2e8a48919c7e6cf7e5ee2b7369/.github/workflows/slack-pr-notification.yml"
         }
       ]
     },
@@ -807,16 +824,16 @@
       "fullName": "rhinstaller/anaconda",
       "url": "https://github.com/rhinstaller/anaconda",
       "description": "System installer for Fedora, RHEL and other distributions",
-      "stars": 639,
+      "stars": 640,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T10:55:00Z",
-      "updatedAt": "2026-09-29T10:55:08Z",
+      "pushedAt": "2026-09-30T09:20:27Z",
+      "updatedAt": "2026-09-30T09:17:42Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/infra-check.yml",
-          "url": "https://github.com/rhinstaller/anaconda/blob/88f3c71e89d50f143428145a95ad0549eded6360/.github/workflows/infra-check.yml"
+          "url": "https://github.com/rhinstaller/anaconda/blob/cd7957610f1e96dea4c01a778e1784e7a0747c69/.github/workflows/infra-check.yml"
         }
       ]
     },
@@ -878,7 +895,7 @@
       "stars": 564,
       "language": "Java",
       "defaultBranch": "1.20.1",
-      "pushedAt": "2026-09-29T12:23:54Z",
+      "pushedAt": "2026-09-30T11:42:00Z",
       "updatedAt": "2026-09-27T19:40:55Z",
       "fork": false,
       "files": [
@@ -912,7 +929,7 @@
       "stars": 469,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-13T22:23:06Z",
+      "pushedAt": "2026-09-29T21:19:46Z",
       "updatedAt": "2026-09-29T15:47:03Z",
       "fork": false,
       "files": [
@@ -1082,17 +1099,17 @@
       "stars": 404,
       "language": "C++",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T12:18:39Z",
-      "updatedAt": "2026-09-28T17:47:24Z",
+      "pushedAt": "2026-09-30T18:10:56Z",
+      "updatedAt": "2026-09-30T02:56:35Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pull-request.disabled",
-          "url": "https://github.com/chaos-polymtl/lethe/blob/8ee683cc99ba626338b4c02ee6f613fdaed06dda/.github/workflows/pull-request.disabled"
+          "url": "https://github.com/chaos-polymtl/lethe/blob/897450ef6fa41dd2ab69b0011c34db342e147482/.github/workflows/pull-request.disabled"
         },
         {
           "path": ".github/workflows/self_hosted_runners.bkup",
-          "url": "https://github.com/chaos-polymtl/lethe/blob/8ee683cc99ba626338b4c02ee6f613fdaed06dda/.github/workflows/self_hosted_runners.bkup"
+          "url": "https://github.com/chaos-polymtl/lethe/blob/897450ef6fa41dd2ab69b0011c34db342e147482/.github/workflows/self_hosted_runners.bkup"
         }
       ]
     },
@@ -1120,13 +1137,13 @@
       "stars": 386,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T01:33:18Z",
-      "updatedAt": "2026-09-29T01:27:48Z",
+      "pushedAt": "2026-09-30T16:47:20Z",
+      "updatedAt": "2026-09-30T16:41:48Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/conventional-commit-pr-title.yml",
-          "url": "https://github.com/joist-orm/joist-orm/blob/00621ec7ba0f15ddb4ccae996fbfa70d66c60077/.github/workflows/conventional-commit-pr-title.yml"
+          "url": "https://github.com/joist-orm/joist-orm/blob/a6c2e4eb42a13596179487eb94ef22f51bc46e1e/.github/workflows/conventional-commit-pr-title.yml"
         }
       ]
     },
@@ -1205,13 +1222,13 @@
       "stars": 345,
       "language": "Go",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T03:32:41Z",
-      "updatedAt": "2026-09-28T23:51:16Z",
+      "pushedAt": "2026-09-30T04:00:24Z",
+      "updatedAt": "2026-09-30T04:00:29Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/semantic-pull-request.yml",
-          "url": "https://github.com/kalbasit/ncps/blob/4249a632fe79919736edcd912fd8e1f86a4fca71/.github/workflows/semantic-pull-request.yml"
+          "url": "https://github.com/kalbasit/ncps/blob/cc33c42f05e08edd02076c0add7a9e6a174bc206/.github/workflows/semantic-pull-request.yml"
         }
       ]
     },
@@ -1219,11 +1236,11 @@
       "fullName": "karimz1/imgcompress",
       "url": "https://github.com/karimz1/imgcompress",
       "description": "Imgcompress is a self-hosted image processing toolbox that handles compression, format conversion, and AI background removal in a single web interface. It supports over 70 input formats (including PSD, HEIC, and RAW) and can output common formats or generate PDFs, all without sending files to external services.",
-      "stars": 340,
+      "stars": 341,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T16:43:54Z",
-      "updatedAt": "2026-09-29T09:38:34Z",
+      "pushedAt": "2026-09-30T10:15:13Z",
+      "updatedAt": "2026-09-30T00:23:41Z",
       "fork": false,
       "files": [
         {
@@ -1239,13 +1256,13 @@
       "stars": 337,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:10:32Z",
-      "updatedAt": "2026-09-29T18:10:48Z",
+      "pushedAt": "2026-09-30T16:53:03Z",
+      "updatedAt": "2026-09-30T16:53:08Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/security-audit.yml",
-          "url": "https://github.com/unslothai/unsloth-zoo/blob/dc063982bf0426c0ee57a8a348f25fcc0c923fcb/.github/workflows/security-audit.yml"
+          "url": "https://github.com/unslothai/unsloth-zoo/blob/55b15b57d5deccea560f3211d2c05bb36f21b5f1/.github/workflows/security-audit.yml"
         }
       ]
     },
@@ -1270,11 +1287,11 @@
       "fullName": "akarnokd/open-ig",
       "url": "https://github.com/akarnokd/open-ig",
       "description": "Free & open-source reimplementation of Imperium Galactica. Download the Installer below the file list!",
-      "stars": 324,
+      "stars": 325,
       "language": "Java",
       "defaultBranch": "master",
       "pushedAt": "2026-08-10T11:16:46Z",
-      "updatedAt": "2026-09-19T05:44:24Z",
+      "updatedAt": "2026-09-30T06:55:52Z",
       "fork": false,
       "files": [
         {
@@ -1287,16 +1304,16 @@
       "fullName": "ansible/product-demos",
       "url": "https://github.com/ansible/product-demos",
       "description": null,
-      "stars": 323,
+      "stars": 324,
       "language": "Jinja",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T17:39:08Z",
-      "updatedAt": "2026-09-28T17:32:53Z",
+      "pushedAt": "2026-09-30T16:28:24Z",
+      "updatedAt": "2026-09-30T16:28:30Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/README.md",
-          "url": "https://github.com/ansible/product-demos/blob/4f70851fd9067d8ff66b1dd1ed5ba128b48629dd/.github/workflows/README.md"
+          "url": "https://github.com/ansible/product-demos/blob/c8a7e27be267487339bdf0334927161bb5b563c3/.github/workflows/README.md"
         }
       ]
     },
@@ -1324,13 +1341,13 @@
       "stars": 318,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T14:13:02Z",
-      "updatedAt": "2026-09-26T20:35:49Z",
+      "pushedAt": "2026-09-30T07:45:53Z",
+      "updatedAt": "2026-09-30T07:45:54Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/lint-pr-title.yml",
-          "url": "https://github.com/crowdin/crowdin-cli/blob/bc2c873ffa779f2daf389da3d3659a28e4d1c88c/.github/workflows/lint-pr-title.yml"
+          "url": "https://github.com/crowdin/crowdin-cli/blob/a370e221202a81fe5d91083efa3ff3dc5045bef4/.github/workflows/lint-pr-title.yml"
         }
       ]
     },
@@ -1338,16 +1355,16 @@
       "fullName": "onyx-dot-app/onyx-foss",
       "url": "https://github.com/onyx-dot-app/onyx-foss",
       "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-      "stars": 316,
+      "stars": 315,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T11:09:58Z",
-      "updatedAt": "2026-09-29T11:10:08Z",
+      "pushedAt": "2026-09-30T11:09:28Z",
+      "updatedAt": "2026-09-30T11:09:38Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-ee-ownership-check.yml",
-          "url": "https://github.com/onyx-dot-app/onyx-foss/blob/378c225ab69f2eed3c3243d4b2646270373a24ff/.github/workflows/pr-ee-ownership-check.yml"
+          "url": "https://github.com/onyx-dot-app/onyx-foss/blob/489b5551501802a7bfbe4c05e33e70374a64b8a7/.github/workflows/pr-ee-ownership-check.yml"
         }
       ]
     },
@@ -1365,6 +1382,23 @@
         {
           "path": ".github/workflows/auto-reland.yml",
           "url": "https://github.com/getnora-io/nora/blob/f864a9a95e8669b00202c18b0b774ab0fc2e56cc/.github/workflows/auto-reland.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "erik-sutton95/OpenPocketCine",
+      "url": "https://github.com/erik-sutton95/OpenPocketCine",
+      "description": "Open-source iOS and Android field monitor for DJI Osmo Pocket cameras.",
+      "stars": 308,
+      "language": "Swift",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T18:09:58Z",
+      "updatedAt": "2026-09-30T18:09:27Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/labeler.yml",
+          "url": "https://github.com/erik-sutton95/OpenPocketCine/blob/32fad7966f9e4e6ab6f5ca5b434f2e2f1a15db05/.github/workflows/labeler.yml"
         }
       ]
     },
@@ -1399,23 +1433,6 @@
         {
           "path": ".github/workflows/latest-changes.yml.off",
           "url": "https://github.com/gradsflow/gradsflow-automl/blob/630f618f1b2609543552a424cbe649cb2d65adb5/.github/workflows/latest-changes.yml.off"
-        }
-      ]
-    },
-    {
-      "fullName": "erik-sutton95/OpenPocketCine",
-      "url": "https://github.com/erik-sutton95/OpenPocketCine",
-      "description": "Open-source iOS and Android field monitor for DJI Osmo Pocket cameras.",
-      "stars": 302,
-      "language": "Swift",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-29T15:11:47Z",
-      "updatedAt": "2026-09-29T15:13:33Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/labeler.yml",
-          "url": "https://github.com/erik-sutton95/OpenPocketCine/blob/9e306c91a4ba5d6bfa5fb2745875e8ce413089f9/.github/workflows/labeler.yml"
         }
       ]
     },
@@ -1457,11 +1474,11 @@
       "fullName": "bmf-san/ggc",
       "url": "https://github.com/bmf-san/ggc",
       "description": "A modern Git CLI tool with both traditional command-line and interactive incremental-search UI.",
-      "stars": 285,
+      "stars": 286,
       "language": "Go",
       "defaultBranch": "main",
       "pushedAt": "2026-09-28T00:11:13Z",
-      "updatedAt": "2026-09-28T00:11:16Z",
+      "updatedAt": "2026-09-30T02:28:43Z",
       "fork": false,
       "files": [
         {
@@ -1583,7 +1600,7 @@
       "stars": 234,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T21:45:39Z",
+      "pushedAt": "2026-09-29T18:15:34Z",
       "updatedAt": "2026-09-24T01:49:34Z",
       "fork": false,
       "files": [
@@ -1600,7 +1617,7 @@
       "stars": 233,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T14:34:19Z",
+      "pushedAt": "2026-09-30T14:36:42Z",
       "updatedAt": "2026-09-27T23:37:09Z",
       "fork": false,
       "files": [
@@ -1617,30 +1634,13 @@
       "stars": 228,
       "language": "C++",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T14:35:12Z",
-      "updatedAt": "2026-09-28T04:38:28Z",
+      "pushedAt": "2026-09-30T16:31:50Z",
+      "updatedAt": "2026-09-30T16:31:57Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/cache-cleanup.yml",
-          "url": "https://github.com/aethersdr/AetherSDR/blob/20d022d50566b7d5aa8fc85ddf66d00923c82117/.github/workflows/cache-cleanup.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "KanCraft/kanColleWidget",
-      "url": "https://github.com/KanCraft/kanColleWidget",
-      "description": "小さい画面で艦これしたいよ。通知とかもほしいよ 🐳",
-      "stars": 228,
-      "language": "TypeScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-16T00:45:38Z",
-      "updatedAt": "2026-08-21T07:14:40Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/tweet-new-pr.yaml",
-          "url": "https://github.com/KanCraft/kanColleWidget/blob/8ed5d247107316dc02294c8f42cceaa5bd947766/.github/workflows/tweet-new-pr.yaml"
+          "url": "https://github.com/aethersdr/AetherSDR/blob/2d219482472a61874987a8232b11ae7468bf1eda/.github/workflows/cache-cleanup.yml"
         }
       ]
     },
@@ -1733,11 +1733,11 @@
       "fullName": "linuxmint/cinnamon-spices-desklets",
       "url": "https://github.com/linuxmint/cinnamon-spices-desklets",
       "description": "Desklets for the Cinnamon desktop",
-      "stars": 195,
+      "stars": 196,
       "language": "JavaScript",
       "defaultBranch": "master",
       "pushedAt": "2026-09-07T16:57:03Z",
-      "updatedAt": "2026-09-29T16:51:28Z",
+      "updatedAt": "2026-09-30T11:39:48Z",
       "fork": false,
       "files": [
         {
@@ -1767,16 +1767,16 @@
       "fullName": "NVIDIA/NeMo-Relay",
       "url": "https://github.com/NVIDIA/NeMo-Relay",
       "description": "Multi-language agent runtime and library for execution scope management, lifecycle events, and middleware on tool and LLM calls.",
-      "stars": 178,
+      "stars": 180,
       "language": "Rust",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T17:03:06Z",
-      "updatedAt": "2026-09-29T13:41:07Z",
+      "pushedAt": "2026-09-30T18:06:44Z",
+      "updatedAt": "2026-09-30T17:40:11Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-labels.yaml",
-          "url": "https://github.com/NVIDIA/NeMo-Relay/blob/a9226978c4334850a232c4ba2969d65d902c5580/.github/workflows/pr-labels.yaml"
+          "url": "https://github.com/NVIDIA/NeMo-Relay/blob/b233556af3e3793335f33e08435aa7a6b59ac540/.github/workflows/pr-labels.yaml"
         }
       ]
     },
@@ -1804,13 +1804,13 @@
       "stars": 160,
       "language": "PHP",
       "defaultBranch": "production",
-      "pushedAt": "2026-09-29T16:02:30Z",
-      "updatedAt": "2026-09-29T16:07:18Z",
+      "pushedAt": "2026-09-30T17:50:33Z",
+      "updatedAt": "2026-09-30T17:50:37Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/props-bot.php",
-          "url": "https://github.com/WordPress/wordcamp.org/blob/7cdec241e4821881a8ad624c333f504c5fb3f302/.github/workflows/props-bot.php"
+          "url": "https://github.com/WordPress/wordcamp.org/blob/46158d5a1368201a01bb634173536787fb50a2f0/.github/workflows/props-bot.php"
         }
       ]
     },
@@ -1835,11 +1835,11 @@
       "fullName": "linuxmint/cinnamon-spices-extensions",
       "url": "https://github.com/linuxmint/cinnamon-spices-extensions",
       "description": "Extensions for the Cinnamon desktop",
-      "stars": 156,
+      "stars": 157,
       "language": "JavaScript",
       "defaultBranch": "master",
       "pushedAt": "2026-09-08T18:55:57Z",
-      "updatedAt": "2026-09-29T16:51:19Z",
+      "updatedAt": "2026-09-30T11:38:46Z",
       "fork": false,
       "files": [
         {
@@ -1906,7 +1906,7 @@
       "stars": 140,
       "language": "Dockerfile",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-28T04:23:25Z",
+      "pushedAt": "2026-09-30T06:50:40Z",
       "updatedAt": "2026-09-14T14:18:57Z",
       "fork": false,
       "files": [
@@ -1974,7 +1974,7 @@
       "stars": 131,
       "language": "Go",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T15:14:01Z",
+      "pushedAt": "2026-09-30T15:28:25Z",
       "updatedAt": "2026-09-29T11:55:17Z",
       "fork": false,
       "files": [
@@ -1992,12 +1992,29 @@
       "language": "Shell",
       "defaultBranch": "main",
       "pushedAt": "2026-09-24T22:11:27Z",
-      "updatedAt": "2026-09-26T19:38:52Z",
+      "updatedAt": "2026-09-29T18:28:37Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/cleanup-testing-repo.yml",
           "url": "https://github.com/vellum-dev/vellum/blob/6b9fba7512c51a43b508735fecf864ec1e9a902f/.github/workflows/cleanup-testing-repo.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "duckduckgo/autoconsent",
+      "url": "https://github.com/duckduckgo/autoconsent",
+      "description": null,
+      "stars": 130,
+      "language": "TypeScript",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T15:15:45Z",
+      "updatedAt": "2026-09-30T15:15:48Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/pr-opened.yml",
+          "url": "https://github.com/duckduckgo/autoconsent/blob/3bd06b43fec8492d8a8b810cf65a49809cab5459/.github/workflows/pr-opened.yml"
         }
       ]
     },
@@ -2019,23 +2036,6 @@
       ]
     },
     {
-      "fullName": "duckduckgo/autoconsent",
-      "url": "https://github.com/duckduckgo/autoconsent",
-      "description": null,
-      "stars": 129,
-      "language": "TypeScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-29T09:59:33Z",
-      "updatedAt": "2026-09-29T09:57:21Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/pr-opened.yml",
-          "url": "https://github.com/duckduckgo/autoconsent/blob/1cf880ac662625aec9e81596654836ce2e1dba18/.github/workflows/pr-opened.yml"
-        }
-      ]
-    },
-    {
       "fullName": "Tech-N-Science/FunwithScience",
       "url": "https://github.com/Tech-N-Science/FunwithScience",
       "description": null,
@@ -2049,23 +2049,6 @@
         {
           "path": ".github/workflows/Auto_message_on_pr_open.yml",
           "url": "https://github.com/Tech-N-Science/FunwithScience/blob/c3953fe329375edd5b094403014825ac0577c3f9/.github/workflows/Auto_message_on_pr_open.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "bradmccoydev/mentoring",
-      "url": "https://github.com/bradmccoydev/mentoring",
-      "description": "This mentoring program is designed to help beginners start there open source and cloud native journey! ",
-      "stars": 116,
-      "language": null,
-      "defaultBranch": "main",
-      "pushedAt": "2023-09-07T07:56:26Z",
-      "updatedAt": "2026-01-03T05:14:25Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/ci.yml",
-          "url": "https://github.com/bradmccoydev/mentoring/blob/c5b460e5b32d7a217e9230bd14e540bbed7e11ab/.github/workflows/ci.yml"
         }
       ]
     },
@@ -2131,13 +2114,13 @@
       "stars": 106,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T12:35:38Z",
-      "updatedAt": "2026-09-29T12:35:42Z",
+      "pushedAt": "2026-09-30T16:17:25Z",
+      "updatedAt": "2026-09-30T16:14:23Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/labeler.yaml",
-          "url": "https://github.com/raman325/lock_code_manager/blob/37ccd1ec5faedde0b5cd08d80d01837b99dfda8c/.github/workflows/labeler.yaml"
+          "url": "https://github.com/raman325/lock_code_manager/blob/c3ea2a7daf08eccb82b8a7b74014fcbfdf7d4e4a/.github/workflows/labeler.yaml"
         }
       ]
     },
@@ -2182,13 +2165,13 @@
       "stars": 102,
       "language": "Java",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T10:00:34Z",
-      "updatedAt": "2026-09-29T10:00:45Z",
+      "pushedAt": "2026-09-30T12:48:34Z",
+      "updatedAt": "2026-09-30T12:48:40Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr_title.yaml",
-          "url": "https://github.com/substrait-io/substrait-java/blob/3a6c248b64f1d5b2529227d132a483f634aea60b/.github/workflows/pr_title.yaml"
+          "url": "https://github.com/substrait-io/substrait-java/blob/cd1f3014b3e4eef4e5f9afa6201017fe58c3e31d/.github/workflows/pr_title.yaml"
         }
       ]
     },
@@ -2244,36 +2227,36 @@
       ]
     },
     {
-      "fullName": "msviderok/base-ui-solid",
-      "url": "https://github.com/msviderok/base-ui-solid",
-      "description": "Unofficial port of Base UI to SolidJS",
-      "stars": 98,
-      "language": "TypeScript",
-      "defaultBranch": "master",
-      "pushedAt": "2026-06-22T20:10:35Z",
-      "updatedAt": "2026-09-27T17:14:03Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/maintenance.yml",
-          "url": "https://github.com/msviderok/base-ui-solid/blob/e49117f0106493a3f3981ea048c7b274c9fe0c2e/.github/workflows/maintenance.yml"
-        }
-      ]
-    },
-    {
       "fullName": "xrkffgg/xrkffgg",
       "url": "https://github.com/xrkffgg/xrkffgg",
       "description": "🎉 A quote a day, welcome PR to add your quotations.",
       "stars": 98,
       "language": "JavaScript",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T04:54:12Z",
-      "updatedAt": "2026-09-29T04:54:16Z",
+      "pushedAt": "2026-09-30T04:40:39Z",
+      "updatedAt": "2026-09-30T04:40:44Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-check-files.yml.back",
-          "url": "https://github.com/xrkffgg/xrkffgg/blob/2bce590dfdba6363637c5cd3f1d5ac0ec83490f6/.github/workflows/pr-check-files.yml.back"
+          "url": "https://github.com/xrkffgg/xrkffgg/blob/2a6c43b57d54f00a3d360866cdd11a596e551787/.github/workflows/pr-check-files.yml.back"
+        }
+      ]
+    },
+    {
+      "fullName": "msviderok/base-ui-solid",
+      "url": "https://github.com/msviderok/base-ui-solid",
+      "description": "Unofficial port of Base UI to SolidJS",
+      "stars": 97,
+      "language": "TypeScript",
+      "defaultBranch": "master",
+      "pushedAt": "2026-06-22T20:10:35Z",
+      "updatedAt": "2026-09-30T11:01:46Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/maintenance.yml",
+          "url": "https://github.com/msviderok/base-ui-solid/blob/e49117f0106493a3f3981ea048c7b274c9fe0c2e/.github/workflows/maintenance.yml"
         }
       ]
     },
@@ -2284,7 +2267,7 @@
       "stars": 94,
       "language": "Go",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T17:21:34Z",
+      "pushedAt": "2026-09-30T18:04:37Z",
       "updatedAt": "2026-09-29T17:06:38Z",
       "fork": false,
       "files": [
@@ -2369,13 +2352,13 @@
       "stars": 83,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T16:18:01Z",
-      "updatedAt": "2026-09-28T18:11:34Z",
+      "pushedAt": "2026-09-30T11:59:08Z",
+      "updatedAt": "2026-09-30T08:44:01Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-auto-component.yml",
-          "url": "https://github.com/ansible-collections/community.openwrt/blob/1604e7c25e240ab68c93ab8e8c55ce1b5e94329b/.github/workflows/pr-auto-component.yml"
+          "url": "https://github.com/ansible-collections/community.openwrt/blob/86f35badfc03a1ec71887f91a1e46672e36ae706/.github/workflows/pr-auto-component.yml"
         }
       ]
     },
@@ -2386,13 +2369,13 @@
       "stars": 81,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T14:02:30Z",
-      "updatedAt": "2026-09-29T14:04:15Z",
+      "pushedAt": "2026-09-30T16:41:06Z",
+      "updatedAt": "2026-09-30T16:41:14Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-lockfile-check.yml",
-          "url": "https://github.com/classmoji/classmoji/blob/0443225e602ad3714a688f6643f8f9e3386c88c4/.github/workflows/pr-lockfile-check.yml"
+          "url": "https://github.com/classmoji/classmoji/blob/0e8523045887ec6052875cff6b4a3e78028160dd/.github/workflows/pr-lockfile-check.yml"
         }
       ]
     },
@@ -2410,6 +2393,23 @@
         {
           "path": ".github/workflows/add-to-project.yml",
           "url": "https://github.com/fastapi/annotated-doc/blob/4a0ce09535725bd73db74af6163e559d2acb7956/.github/workflows/add-to-project.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "Ryan-Millard/Img2Num",
+      "url": "https://github.com/Ryan-Millard/Img2Num",
+      "description": "Cross-platform library for converting natural raster images into clean SVGs - fast, precise and configurable.",
+      "stars": 81,
+      "language": "C++",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T18:05:55Z",
+      "updatedAt": "2026-09-30T17:43:32Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/pr-auto-label.yml",
+          "url": "https://github.com/Ryan-Millard/Img2Num/blob/41441f02421704f119a5a0f213e7e0514ca253bc/.github/workflows/pr-auto-label.yml"
         }
       ]
     },
@@ -2451,33 +2451,16 @@
       "fullName": "topherchris420/james_library",
       "url": "https://github.com/topherchris420/james_library",
       "description": "R.A.I.N. Lab is an experimental scientific-agent architecture that separates fast local judgment, independent probabilistic evaluation, multi-agent deliberation, evidence, and authorization into distinct computational layers.🐙(Predates Karpathy's AutoResearch)",
-      "stars": 72,
+      "stars": 71,
       "language": "Rust",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T04:28:29Z",
-      "updatedAt": "2026-09-29T04:01:59Z",
+      "pushedAt": "2026-09-30T16:10:20Z",
+      "updatedAt": "2026-09-30T12:34:57Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/main-branch-flow.md",
           "url": "https://github.com/topherchris420/james_library/blob/9c8811e343d21b8c143055f9cf549abdefa862f1/.github/workflows/main-branch-flow.md"
-        }
-      ]
-    },
-    {
-      "fullName": "Ryan-Millard/Img2Num",
-      "url": "https://github.com/Ryan-Millard/Img2Num",
-      "description": "Cross-platform library for converting natural raster images into clean SVGs - fast, precise and configurable.",
-      "stars": 69,
-      "language": "C++",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:13:14Z",
-      "updatedAt": "2026-09-29T18:12:43Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/pr-auto-label.yml",
-          "url": "https://github.com/Ryan-Millard/Img2Num/blob/6878ee770124e85d6a1b15a8e5aaeed2b859b19d/.github/workflows/pr-auto-label.yml"
         }
       ]
     },
@@ -2499,36 +2482,19 @@
       ]
     },
     {
-      "fullName": "arktwin/arktwin",
-      "url": "https://github.com/arktwin/arktwin",
-      "description": "Distributed Multi-Agent Messaging Framework",
-      "stars": 65,
-      "language": "Scala",
-      "defaultBranch": "main",
-      "pushedAt": "2026-06-24T06:24:12Z",
-      "updatedAt": "2026-08-09T14:44:07Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/cla-assistant.yaml",
-          "url": "https://github.com/arktwin/arktwin/blob/afb172e722ed7b3395008743e73b8af7c21905f2/.github/workflows/cla-assistant.yaml"
-        }
-      ]
-    },
-    {
       "fullName": "nrjdalal/zerostarter",
       "url": "https://github.com/nrjdalal/zerostarter",
       "description": "Modern, type-safe/RPC starter monorepo with foundations for building scalable SaaS products with clean architecture, automation, and great developer experience.",
       "stars": 63,
       "language": "TypeScript",
       "defaultBranch": "canary",
-      "pushedAt": "2026-09-29T17:48:19Z",
-      "updatedAt": "2026-09-29T17:47:46Z",
+      "pushedAt": "2026-09-29T22:48:31Z",
+      "updatedAt": "2026-09-29T20:42:35Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/auto-labeler.yml",
-          "url": "https://github.com/nrjdalal/zerostarter/blob/ed4d8852e69c282f500ad70bbb4f50932e164425/.github/workflows/auto-labeler.yml"
+          "url": "https://github.com/nrjdalal/zerostarter/blob/847cfd701083b0d1e2245b62b925c61bb8a2c0e6/.github/workflows/auto-labeler.yml"
         }
       ]
     },
@@ -2539,13 +2505,13 @@
       "stars": 61,
       "language": "C++",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:09:10Z",
-      "updatedAt": "2026-09-29T16:03:12Z",
+      "pushedAt": "2026-09-30T18:12:25Z",
+      "updatedAt": "2026-09-30T15:52:16Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/build_and_test_qnx.yml",
-          "url": "https://github.com/eclipse-score/communication/blob/ac76eed11230c1e4a85f65dcf002a020a085e429/.github/workflows/build_and_test_qnx.yml"
+          "url": "https://github.com/eclipse-score/communication/blob/aba95e23b342437ab6664129632666e40914f1a9/.github/workflows/build_and_test_qnx.yml"
         }
       ]
     },
@@ -2567,19 +2533,19 @@
       ]
     },
     {
-      "fullName": "NovaSector/NovaSector",
-      "url": "https://github.com/NovaSector/NovaSector",
-      "description": "A Nova Sector downstream of /tg/station SS13.",
-      "stars": 58,
-      "language": "DM",
-      "defaultBranch": "master",
-      "pushedAt": "2026-09-28T05:54:52Z",
-      "updatedAt": "2026-09-28T04:03:59Z",
+      "fullName": "stickerdaniel/saas-starter",
+      "url": "https://github.com/stickerdaniel/saas-starter",
+      "description": "SvelteKit + Convex-native SaaS starter optimised for coding agents, with auth, billing, admin, AI, and built-in regression guardrails.",
+      "stars": 59,
+      "language": "TypeScript",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T15:43:30Z",
+      "updatedAt": "2026-09-30T12:03:49Z",
       "fork": false,
       "files": [
         {
-          "path": ".github/workflows/codeowner_reviews.yml",
-          "url": "https://github.com/NovaSector/NovaSector/blob/9ce1030bdd52461b3a49f55aa8fa31abdcffad2e/.github/workflows/codeowner_reviews.yml"
+          "path": ".github/workflows/e2e-fork-preview.yml",
+          "url": "https://github.com/stickerdaniel/saas-starter/blob/0bce42d63c741cfe0573ff6562a326d49aae2d1a/.github/workflows/e2e-fork-preview.yml"
         }
       ]
     },
@@ -2587,16 +2553,33 @@
       "fullName": "llm-d/llm-d-autoscaling",
       "url": "https://github.com/llm-d/llm-d-autoscaling",
       "description": "Variant optimization autoscaler for distributed inference workloads",
-      "stars": 57,
+      "stars": 58,
       "language": "Go",
       "defaultBranch": "main",
       "pushedAt": "2026-09-29T01:25:52Z",
-      "updatedAt": "2026-09-21T16:33:55Z",
+      "updatedAt": "2026-09-30T07:29:41Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/ci-signed-commits.yaml",
           "url": "https://github.com/llm-d/llm-d-autoscaling/blob/3c06c8814bcde4f7da0c7b4fadeed015e135a9de/.github/workflows/ci-signed-commits.yaml"
+        }
+      ]
+    },
+    {
+      "fullName": "NovaSector/NovaSector",
+      "url": "https://github.com/NovaSector/NovaSector",
+      "description": "A Nova Sector downstream of /tg/station SS13.",
+      "stars": 58,
+      "language": "DM",
+      "defaultBranch": "master",
+      "pushedAt": "2026-09-30T00:28:56Z",
+      "updatedAt": "2026-09-29T21:09:14Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/codeowner_reviews.yml",
+          "url": "https://github.com/NovaSector/NovaSector/blob/034249e222ec60bce33f8dcf8463365bc96ba058/.github/workflows/codeowner_reviews.yml"
         }
       ]
     },
@@ -2794,13 +2777,13 @@
       "stars": 48,
       "language": "HTML",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T12:49:58Z",
-      "updatedAt": "2026-09-29T04:46:23Z",
+      "pushedAt": "2026-09-30T08:57:30Z",
+      "updatedAt": "2026-09-30T09:07:32Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/first.interaction.yml",
-          "url": "https://github.com/yakew7/Fair-Code/blob/161e26cb1cd68179db44c0c5c9fab2c047e5ce49/.github/workflows/first.interaction.yml"
+          "url": "https://github.com/yakew7/Fair-Code/blob/ed70e04f84bc45a7f620c11c5671a3e84f96d3e2/.github/workflows/first.interaction.yml"
         }
       ]
     },
@@ -2822,36 +2805,19 @@
       ]
     },
     {
-      "fullName": "mfaisalkhatri/restful-ecommerce",
-      "url": "https://github.com/mfaisalkhatri/restful-ecommerce",
-      "description": "A free to use E-Commerce Web APIs for practising API testing.",
-      "stars": 46,
-      "language": "JavaScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-28T09:41:02Z",
-      "updatedAt": "2026-09-28T09:40:59Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/node.js.yml",
-          "url": "https://github.com/mfaisalkhatri/restful-ecommerce/blob/a45aebbb4ebcba5fd6c893a4101fc41bbdb95f74/.github/workflows/node.js.yml"
-        }
-      ]
-    },
-    {
       "fullName": "mind-inria/hidimstat",
       "url": "https://github.com/mind-inria/hidimstat",
       "description": "HiDimStat: High-dimensional statistical inference tool for Python",
       "stars": 46,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T09:38:57Z",
-      "updatedAt": "2026-09-28T14:10:16Z",
+      "pushedAt": "2026-09-30T12:53:36Z",
+      "updatedAt": "2026-09-30T08:08:42Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "url": "https://github.com/mind-inria/hidimstat/blob/f819fa70746654c0ff1703067a305c28ff09a2fa/.github/workflows/ci.yml"
+          "url": "https://github.com/mind-inria/hidimstat/blob/58d412f85d817cf250652024dc488c436d0235ab/.github/workflows/ci.yml"
         }
       ]
     },
@@ -2896,13 +2862,13 @@
       "stars": 43,
       "language": "Go Template",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T08:11:28Z",
-      "updatedAt": "2026-09-29T08:10:27Z",
+      "pushedAt": "2026-09-30T16:56:38Z",
+      "updatedAt": "2026-09-30T16:55:47Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/mercury_bot.yml",
-          "url": "https://github.com/openshift-helm-charts/charts/blob/f8a5e532d4cfc650d2654a9238c0dcb71dd92b83/.github/workflows/mercury_bot.yml"
+          "url": "https://github.com/openshift-helm-charts/charts/blob/cb49aeecf3ae975bb53e51f623dc5498c057f757/.github/workflows/mercury_bot.yml"
         }
       ]
     },
@@ -2930,7 +2896,7 @@
       "stars": 42,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T09:31:13Z",
+      "pushedAt": "2026-09-30T12:34:00Z",
       "updatedAt": "2026-09-29T13:17:26Z",
       "fork": false,
       "files": [
@@ -2947,7 +2913,7 @@
       "stars": 42,
       "language": "HTML",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T00:15:34Z",
+      "pushedAt": "2026-09-30T00:14:56Z",
       "updatedAt": "2026-09-28T21:31:43Z",
       "fork": false,
       "files": [
@@ -3066,13 +3032,13 @@
       "stars": 37,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-24T19:17:21Z",
-      "updatedAt": "2026-09-14T10:01:12Z",
+      "pushedAt": "2026-09-30T17:48:13Z",
+      "updatedAt": "2026-09-30T17:46:40Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/conventional-commits.yaml",
-          "url": "https://github.com/bazel-contrib/publish-to-bcr/blob/df29642dec46fb87bccc32c74a9318f1da71a0e6/.github/workflows/conventional-commits.yaml"
+          "url": "https://github.com/bazel-contrib/publish-to-bcr/blob/28a401b20ccb0740bb4d69584d5f635c3d3d64dc/.github/workflows/conventional-commits.yaml"
         }
       ]
     },
@@ -3117,7 +3083,7 @@
       "stars": 36,
       "language": "JavaScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T07:50:10Z",
+      "pushedAt": "2026-09-30T09:47:40Z",
       "updatedAt": "2026-09-26T22:02:23Z",
       "fork": false,
       "files": [
@@ -3151,30 +3117,13 @@
       "stars": 33,
       "language": "Shell",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T12:25:40Z",
-      "updatedAt": "2026-08-25T08:11:50Z",
+      "pushedAt": "2026-09-30T12:03:30Z",
+      "updatedAt": "2026-09-30T12:03:22Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/qa.yml",
-          "url": "https://github.com/shopware/recipes/blob/605d3155bf370597a2c162c534e62c2a2956b222/.github/workflows/qa.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "andymai/brepkit",
-      "url": "https://github.com/andymai/brepkit",
-      "description": "B-Rep modeling engine for brepjs — pure Rust, compiled to WebAssembly",
-      "stars": 31,
-      "language": "Rust",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-28T23:15:56Z",
-      "updatedAt": "2026-09-28T23:13:05Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/cla.yml",
-          "url": "https://github.com/andymai/brepkit/blob/39c34d84c77d44e3bd9c74083fbf7c69175cd2f2/.github/workflows/cla.yml"
+          "url": "https://github.com/shopware/recipes/blob/4f2a242e8ca07cb6f63e80d5c37ab7ccd6523d5d/.github/workflows/qa.yml"
         }
       ]
     },
@@ -3202,7 +3151,7 @@
       "stars": 31,
       "language": "Starlark",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T15:01:52Z",
+      "pushedAt": "2026-09-30T01:07:04Z",
       "updatedAt": "2026-09-29T14:30:34Z",
       "fork": false,
       "files": [
@@ -3226,6 +3175,23 @@
         {
           "path": ".github/workflows/refuse-pull-requests.yml",
           "url": "https://github.com/indexable-inc/index-bak/blob/b16280cb9d9906dae91a0093664de8713dfd58d7/.github/workflows/refuse-pull-requests.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "andymai/brepkit",
+      "url": "https://github.com/andymai/brepkit",
+      "description": "B-Rep modeling engine for brepjs — pure Rust, compiled to WebAssembly",
+      "stars": 30,
+      "language": "Rust",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T18:03:45Z",
+      "updatedAt": "2026-09-30T18:01:10Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/cla.yml",
+          "url": "https://github.com/andymai/brepkit/blob/e2a56e503984df28bf3f2a91b048b5c925634eb6/.github/workflows/cla.yml"
         }
       ]
     },
@@ -3338,13 +3304,13 @@
       "stars": 25,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:17:38Z",
-      "updatedAt": "2026-09-29T16:35:27Z",
+      "pushedAt": "2026-09-30T18:16:02Z",
+      "updatedAt": "2026-09-30T15:47:44Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/redo-typo-pr.yml",
-          "url": "https://github.com/aztec-labs-eng/aztec-node/blob/b6ff1ce6ababbf5cb1082e31024a5aa1fb199c4c/.github/workflows/redo-typo-pr.yml"
+          "url": "https://github.com/aztec-labs-eng/aztec-node/blob/a0d73c0aed6bde762a7473913efd03b2a67d209a/.github/workflows/redo-typo-pr.yml"
         }
       ]
     },
@@ -3352,11 +3318,11 @@
       "fullName": "GregTechLite/GregTech-Lite-Modpack",
       "url": "https://github.com/GregTechLite/GregTech-Lite-Modpack",
       "description": "Minecraft 1.12.2 Modpack centered around GregTech CEu mod",
-      "stars": 24,
+      "stars": 25,
       "language": "Groovy",
       "defaultBranch": "main",
       "pushedAt": "2026-09-26T11:35:54Z",
-      "updatedAt": "2026-09-28T11:32:46Z",
+      "updatedAt": "2026-09-30T05:09:33Z",
       "fork": false,
       "files": [
         {
@@ -3372,13 +3338,13 @@
       "stars": 24,
       "language": "Rust",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T15:17:38Z",
-      "updatedAt": "2026-09-29T15:18:06Z",
+      "pushedAt": "2026-09-30T16:44:33Z",
+      "updatedAt": "2026-09-30T16:44:38Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/auto-merge.yaml",
-          "url": "https://github.com/jelmer/ognibuild/blob/1de5f1b8165d2a500f60948f873613e766a84139/.github/workflows/auto-merge.yaml"
+          "url": "https://github.com/jelmer/ognibuild/blob/9740179077ff3684d9d269633de1bc33fd597295/.github/workflows/auto-merge.yaml"
         }
       ]
     },
@@ -3389,13 +3355,13 @@
       "stars": 24,
       "language": "TypeScript",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-27T12:04:32Z",
-      "updatedAt": "2026-09-27T12:04:37Z",
+      "pushedAt": "2026-09-30T11:19:56Z",
+      "updatedAt": "2026-09-29T20:27:11Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/payment-reservations.yml",
-          "url": "https://github.com/SlopDotCash/slopdotcash/blob/2e65b024cf44ce042f591a5a533f9640b5855466/.github/workflows/payment-reservations.yml"
+          "url": "https://github.com/SlopDotCash/slopdotcash/blob/9a7a313d7fee6ebae51dc5b0856b6031af7a2792/.github/workflows/payment-reservations.yml"
         }
       ]
     },
@@ -3406,7 +3372,7 @@
       "stars": 23,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-25T20:33:04Z",
+      "pushedAt": "2026-09-30T06:10:22Z",
       "updatedAt": "2026-09-25T20:33:09Z",
       "fork": false,
       "files": [
@@ -3457,13 +3423,13 @@
       "stars": 22,
       "language": "Java",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T16:46:35Z",
-      "updatedAt": "2026-09-28T20:10:21Z",
+      "pushedAt": "2026-09-30T17:46:18Z",
+      "updatedAt": "2026-09-30T17:39:33Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/review-policy.yml",
-          "url": "https://github.com/hephaestus-build/Hephaestus/blob/06c0ba708cbca028cdcdc9216fe8999c8ff97a9b/.github/workflows/review-policy.yml"
+          "url": "https://github.com/hephaestus-build/Hephaestus/blob/2dd8a0e96876b5e830460626de7d5278c8a06e3e/.github/workflows/review-policy.yml"
         }
       ]
     },
@@ -3508,13 +3474,13 @@
       "stars": 20,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T07:22:59Z",
-      "updatedAt": "2026-09-28T07:22:56Z",
+      "pushedAt": "2026-09-29T20:38:05Z",
+      "updatedAt": "2026-09-29T20:38:02Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/dependabot-automerge.yml",
-          "url": "https://github.com/DanielVolz/medassist-ng/blob/549032c036ed011e51808903cdd23c0f9f028991/.github/workflows/dependabot-automerge.yml"
+          "url": "https://github.com/DanielVolz/medassist-ng/blob/f00d0f05e3334dd2a0c2995c7cdd67b13c05d0ee/.github/workflows/dependabot-automerge.yml"
         }
       ]
     },
@@ -3542,13 +3508,13 @@
       "stars": 19,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T16:05:48Z",
-      "updatedAt": "2026-09-29T16:08:40Z",
+      "pushedAt": "2026-09-30T13:57:36Z",
+      "updatedAt": "2026-09-30T13:58:34Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-labels.yml",
-          "url": "https://github.com/LucasSantana-Dev/Lucky/blob/9f15d309c1c21dbdb65cae0da9563cd028888cb6/.github/workflows/pr-labels.yml"
+          "url": "https://github.com/LucasSantana-Dev/Lucky/blob/bb2836466e72c4f48cdef5f0912bced44737f31e/.github/workflows/pr-labels.yml"
         }
       ]
     },
@@ -3729,13 +3695,13 @@
       "stars": 15,
       "language": "Jupyter Notebook",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-25T17:13:43Z",
-      "updatedAt": "2026-09-24T13:34:03Z",
+      "pushedAt": "2026-09-30T15:23:02Z",
+      "updatedAt": "2026-09-30T15:23:08Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/read_the_docs",
-          "url": "https://github.com/cositools/cosipy/blob/8c90c56b0b9ae8ce8a65af6700b5296b667d8ff8/.github/workflows/read_the_docs"
+          "url": "https://github.com/cositools/cosipy/blob/b324c4302486ca9ed6739e80983bc65b89e0d7a7/.github/workflows/read_the_docs"
         }
       ]
     },
@@ -3842,6 +3808,23 @@
       ]
     },
     {
+      "fullName": "rafaelcg/pqp",
+      "url": "https://github.com/rafaelcg/pqp",
+      "description": "Open-source Discord alternative — real-time voice + text chat",
+      "stars": 14,
+      "language": "TypeScript",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T16:37:00Z",
+      "updatedAt": "2026-09-30T16:30:56Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/pr-size-label.yml",
+          "url": "https://github.com/rafaelcg/pqp/blob/2995144484f45ea3ff13f493ca9d2c6ff641ed11/.github/workflows/pr-size-label.yml"
+        }
+      ]
+    },
+    {
       "fullName": "CrestApps/CrestApps.Core",
       "url": "https://github.com/CrestApps/CrestApps.Core",
       "description": "CrestApps.Core is the AI application framework for .NET. It gives you the orchestration, management, chat, document, RAG, MCP, A2A, agent, reporting, and extensibility building blocks needed to add production-ready AI to an existing application without stitching together a pile of disconnected SDK samples.",
@@ -3849,7 +3832,7 @@
       "language": "C#",
       "defaultBranch": "main",
       "pushedAt": "2026-09-27T21:35:00Z",
-      "updatedAt": "2026-09-25T18:58:40Z",
+      "updatedAt": "2026-09-30T07:21:23Z",
       "fork": false,
       "files": [
         {
@@ -3882,30 +3865,13 @@
       "stars": 13,
       "language": "DM",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-27T05:47:08Z",
-      "updatedAt": "2026-09-27T02:59:23Z",
+      "pushedAt": "2026-09-30T05:59:18Z",
+      "updatedAt": "2026-09-30T03:25:40Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/codeowner_reviews.yml",
-          "url": "https://github.com/OculisStation/OculisStation/blob/495e326dd2215797ebce753eb9ed6e9c3c783f3c/.github/workflows/codeowner_reviews.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "rafaelcg/pqp",
-      "url": "https://github.com/rafaelcg/pqp",
-      "description": "Open-source Discord alternative — real-time voice + text chat",
-      "stars": 13,
-      "language": "TypeScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-29T16:57:31Z",
-      "updatedAt": "2026-09-29T16:34:09Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/pr-size-label.yml",
-          "url": "https://github.com/rafaelcg/pqp/blob/3abaf1007c4e7eb297198335b502408f97d5c5d2/.github/workflows/pr-size-label.yml"
+          "url": "https://github.com/OculisStation/OculisStation/blob/7886b8af2e8193814cae18ea5ece7789e8453b15/.github/workflows/codeowner_reviews.yml"
         }
       ]
     },
@@ -3916,7 +3882,7 @@
       "stars": 13,
       "language": "HCL",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-28T23:55:42Z",
+      "pushedAt": "2026-09-29T19:13:59Z",
       "updatedAt": "2026-09-27T18:27:09Z",
       "fork": false,
       "files": [
@@ -3978,23 +3944,6 @@
       ]
     },
     {
-      "fullName": "oss-infra/github-growth-hack",
-      "url": "https://github.com/oss-infra/github-growth-hack",
-      "description": "A framework to help you do growth hacking for your open source projects.",
-      "stars": 12,
-      "language": "JavaScript",
-      "defaultBranch": "master",
-      "pushedAt": "2024-07-31T02:32:01Z",
-      "updatedAt": "2026-09-19T19:50:11Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/greetings.yml",
-          "url": "https://github.com/oss-infra/github-growth-hack/blob/17fceaa61c7a099ef40503360b9221173c4ea5c1/.github/workflows/greetings.yml"
-        }
-      ]
-    },
-    {
       "fullName": "Schrolli91/heidelberg_energy_control",
       "url": "https://github.com/Schrolli91/heidelberg_energy_control",
       "description": "Control your Heidelberg/Amperfied Wallboxes locally using Modbus TCP",
@@ -4018,13 +3967,13 @@
       "stars": 12,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T14:55:35Z",
-      "updatedAt": "2026-09-28T14:55:23Z",
+      "pushedAt": "2026-09-29T20:26:38Z",
+      "updatedAt": "2026-09-29T20:26:24Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/release-preview.yml",
-          "url": "https://github.com/Seekr-Technologies/seekr-hatchery/blob/a115093d993377d6c53548f0bce37b42ce8fead2/.github/workflows/release-preview.yml"
+          "url": "https://github.com/Seekr-Technologies/seekr-hatchery/blob/9e75bda78d6b9f8980fdd70bcacd047af4ff3b17/.github/workflows/release-preview.yml"
         }
       ]
     },
@@ -4154,7 +4103,7 @@
       "stars": 10,
       "language": "DM",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T05:10:09Z",
+      "pushedAt": "2026-09-30T04:57:40Z",
       "updatedAt": "2026-09-20T23:06:14Z",
       "fork": false,
       "files": [
@@ -4205,13 +4154,13 @@
       "stars": 9,
       "language": "DM",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T08:40:13Z",
-      "updatedAt": "2026-09-29T05:25:12Z",
+      "pushedAt": "2026-09-30T06:49:35Z",
+      "updatedAt": "2026-09-30T04:23:16Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/codeowner_reviews.yml",
-          "url": "https://github.com/DarkPack13/SecondCity/blob/1e127869d27832d92e9bfb334a221883f19780ec/.github/workflows/codeowner_reviews.yml"
+          "url": "https://github.com/DarkPack13/SecondCity/blob/10675a6e6a1c46866807895fabc7bb4faecef2cc/.github/workflows/codeowner_reviews.yml"
         }
       ]
     },
@@ -4222,13 +4171,13 @@
       "stars": 9,
       "language": "Rust",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T10:54:38Z",
-      "updatedAt": "2026-09-29T10:54:42Z",
+      "pushedAt": "2026-09-30T17:59:37Z",
+      "updatedAt": "2026-09-30T17:33:27Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/auto-merge.yaml",
-          "url": "https://github.com/jelmer/debian-lsp/blob/400365e606c9bf7e6ca248cdd51f487b583a676b/.github/workflows/auto-merge.yaml"
+          "url": "https://github.com/jelmer/debian-lsp/blob/d388629b9dc267a9cf2dd171a96c2ed361630600/.github/workflows/auto-merge.yaml"
         }
       ]
     },
@@ -4256,7 +4205,7 @@
       "stars": 9,
       "language": null,
       "defaultBranch": "trunk",
-      "pushedAt": "2026-09-24T04:35:46Z",
+      "pushedAt": "2026-09-30T02:03:32Z",
       "updatedAt": "2026-09-24T04:35:50Z",
       "fork": false,
       "files": [
@@ -4273,13 +4222,13 @@
       "stars": 8,
       "language": "C#",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T18:11:26Z",
-      "updatedAt": "2026-09-29T18:11:36Z",
+      "pushedAt": "2026-09-29T20:44:40Z",
+      "updatedAt": "2026-09-29T20:44:46Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/close-master-pr.yml",
-          "url": "https://github.com/dead-space-server/space-station-14-soyuz/blob/1a86ee1f6a302b72943dc3f3b0da3b96b53f3c85/.github/workflows/close-master-pr.yml"
+          "url": "https://github.com/dead-space-server/space-station-14-soyuz/blob/497ccfa21885510f8ee3ab604648a0f337ad569a/.github/workflows/close-master-pr.yml"
         }
       ]
     },
@@ -4324,13 +4273,30 @@
       "stars": 8,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T12:32:21Z",
-      "updatedAt": "2026-09-29T12:29:42Z",
+      "pushedAt": "2026-09-30T16:58:52Z",
+      "updatedAt": "2026-09-30T16:56:48Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/trusted-dependency-artifact.yml",
-          "url": "https://github.com/judeper/FSI-AgentGov/blob/6c3d529d539fd474ee3f820d4027e3b5074fc0c4/.github/workflows/trusted-dependency-artifact.yml"
+          "url": "https://github.com/judeper/FSI-AgentGov/blob/fa78b9511f9b53ef8c10dd1b0bddafafdd664672/.github/workflows/trusted-dependency-artifact.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "nodelike/sikemux",
+      "url": "https://github.com/nodelike/sikemux",
+      "description": "A GUI terminal multiplexer for macOS - editor, terminal, git, AWS, CI/CD, API client and AI coding agents in one keyboard-driven, tiling workspace. Built with Tauri + Rust + React.",
+      "stars": 8,
+      "language": "TypeScript",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T14:37:42Z",
+      "updatedAt": "2026-09-30T14:37:39Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/cla.yml",
+          "url": "https://github.com/nodelike/sikemux/blob/a9bfe52bacc5f417ef33b02999db0b4475e45c09/.github/workflows/cla.yml"
         }
       ]
     },
@@ -4341,13 +4307,13 @@
       "stars": 8,
       "language": "JavaScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-27T16:11:13Z",
-      "updatedAt": "2026-09-24T18:01:16Z",
+      "pushedAt": "2026-09-30T17:16:28Z",
+      "updatedAt": "2026-09-29T21:50:54Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/guard-generated-files.yml",
-          "url": "https://github.com/redpanda-data/docs-extensions-and-macros/blob/9705bb7492fccf2207e2a1c66156134ee22edb8a/.github/workflows/guard-generated-files.yml"
+          "url": "https://github.com/redpanda-data/docs-extensions-and-macros/blob/423184868cc6189cb10cfb7a754a96725dc1aabf/.github/workflows/guard-generated-files.yml"
         }
       ]
     },
@@ -4437,6 +4403,23 @@
       ]
     },
     {
+      "fullName": "hedra-labs/hedra-node",
+      "url": "https://github.com/hedra-labs/hedra-node",
+      "description": "The javascript SDK for accessing the Hedra inference & training platform",
+      "stars": 7,
+      "language": "TypeScript",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-29T22:51:23Z",
+      "updatedAt": "2026-09-29T22:51:26Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/autoland-regen.yml",
+          "url": "https://github.com/hedra-labs/hedra-node/blob/ee27bd91fc526a322761be0e6473c6bb8f752266/.github/workflows/autoland-regen.yml"
+        }
+      ]
+    },
+    {
       "fullName": "kalbasit/signal-api-receiver",
       "url": "https://github.com/kalbasit/signal-api-receiver",
       "description": null,
@@ -4505,36 +4488,19 @@
       ]
     },
     {
-      "fullName": "bcgov/nr-bcws-wfprev",
-      "url": "https://github.com/bcgov/nr-bcws-wfprev",
-      "description": "The goal of the BC Wildfire Service (BCWS) Prevention Program is to reduce the negative impacts of wildfire on public safety, property, the environment and the economy using the seven disciplines of the FireSmart program.",
-      "stars": 6,
-      "language": "Java",
-      "defaultBranch": "release/1.4.0",
-      "pushedAt": "2026-09-29T00:27:25Z",
-      "updatedAt": "2026-09-29T00:27:29Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/liquibase-build.yml",
-          "url": "https://github.com/bcgov/nr-bcws-wfprev/blob/bcf60d95aecb32089f22d8336c56a1f6fddf0b34/.github/workflows/liquibase-build.yml"
-        }
-      ]
-    },
-    {
       "fullName": "cigaleapp/cigale",
       "url": "https://github.com/cigaleapp/cigale",
       "description": "Classification Intelligente et Gestion des Arthropodes et de L'Entomofaune",
       "stars": 6,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T14:00:47Z",
-      "updatedAt": "2026-09-29T07:58:30Z",
+      "pushedAt": "2026-09-30T10:59:53Z",
+      "updatedAt": "2026-09-30T03:58:29Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/labeler.yml",
-          "url": "https://github.com/cigaleapp/cigale/blob/606c3168140a243041441b71583d78e86f372f77/.github/workflows/labeler.yml"
+          "url": "https://github.com/cigaleapp/cigale/blob/fc4fa6cb42cb6a37659a857e497323c28c2a1dd2/.github/workflows/labeler.yml"
         }
       ]
     },
@@ -4715,13 +4681,13 @@
       "stars": 5,
       "language": "JavaScript",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T16:57:40Z",
-      "updatedAt": "2026-09-29T16:57:45Z",
+      "pushedAt": "2026-09-30T18:19:01Z",
+      "updatedAt": "2026-09-30T18:19:05Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/fork-cleanup.yml",
-          "url": "https://github.com/CloudWaddie/ModelWatcher/blob/07becc82727a34b29d6ca936afdbba49f538707f/.github/workflows/fork-cleanup.yml"
+          "url": "https://github.com/CloudWaddie/ModelWatcher/blob/4cc874286115b14cef938263613b493e89ce19b3/.github/workflows/fork-cleanup.yml"
         }
       ]
     },
@@ -4739,6 +4705,23 @@
         {
           "path": ".github/workflows/codeowner_reviews.yml",
           "url": "https://github.com/effigy-se/effigy/blob/4842dcf6868ab076de68e720c7ab5487574288c8/.github/workflows/codeowner_reviews.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "hedra-labs/hedra-python",
+      "url": "https://github.com/hedra-labs/hedra-python",
+      "description": "The python SDK for accessing the Hedra inference & training platform",
+      "stars": 5,
+      "language": "Python",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-29T23:40:54Z",
+      "updatedAt": "2026-09-29T23:40:57Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/autoland-regen.yml",
+          "url": "https://github.com/hedra-labs/hedra-python/blob/28f9c326156d85c78285dbaf408107cc328117ca/.github/workflows/autoland-regen.yml"
         }
       ]
     },
@@ -5004,7 +4987,7 @@
       "stars": 4,
       "language": "Shell",
       "defaultBranch": "githubaction",
-      "pushedAt": "2026-09-24T08:51:18Z",
+      "pushedAt": "2026-09-30T10:38:55Z",
       "updatedAt": "2026-09-16T16:54:43Z",
       "fork": false,
       "files": [
@@ -5100,23 +5083,6 @@
       ]
     },
     {
-      "fullName": "Gavin-Borges/SESTRAV",
-      "url": "https://github.com/Gavin-Borges/SESTRAV",
-      "description": "Dry-lab computational pipeline for prioritizing viral CD8+ T-cell epitopes by predicted immunogenicity across nine viral pathogens (CMV, EBV, HBV, HCV, HPV, HIV-1, IAV, DENV, SARS-CoV-2). RF/XGBoost production track; GINEConv+ESM-2 GNN research track. OpenSSF Passing.",
-      "stars": 3,
-      "language": "Python",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-29T16:39:49Z",
-      "updatedAt": "2026-09-29T16:39:56Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/dependency-lockfile-check.yml",
-          "url": "https://github.com/Gavin-Borges/SESTRAV/blob/01a1533302ddce9761bfe1bf7e3b5d9fa7043009/.github/workflows/dependency-lockfile-check.yml"
-        }
-      ]
-    },
-    {
       "fullName": "gitify-app/electron-menubar",
       "url": "https://github.com/gitify-app/electron-menubar",
       "description": "➖ High level way to create menubar desktop applications with Electron",
@@ -5208,7 +5174,7 @@
       "stars": 3,
       "language": "C#",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T14:32:43Z",
+      "pushedAt": "2026-09-30T13:58:37Z",
       "updatedAt": "2026-09-29T14:32:26Z",
       "fork": false,
       "files": [
@@ -5293,7 +5259,7 @@
       "stars": 3,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T07:23:22Z",
+      "pushedAt": "2026-09-30T07:13:43Z",
       "updatedAt": "2026-09-28T00:17:44Z",
       "fork": false,
       "files": [
@@ -5334,23 +5300,6 @@
         {
           "path": ".github/workflows/auto-merge.yaml",
           "url": "https://github.com/breezy-team/setuptools-gettext/blob/a2b6b3b03e24b2268f8cdfdec8ff7dbb01cfbe10/.github/workflows/auto-merge.yaml"
-        }
-      ]
-    },
-    {
-      "fullName": "devopsandclouddays/welcome",
-      "url": "https://github.com/devopsandclouddays/welcome",
-      "description": "a repository to welcome new members",
-      "stars": 2,
-      "language": null,
-      "defaultBranch": "main",
-      "pushedAt": "2022-06-22T13:23:45Z",
-      "updatedAt": "2022-06-22T18:10:41Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/greetings.yml",
-          "url": "https://github.com/devopsandclouddays/welcome/blob/030b844a638a9d4cfd263a2d3f46058ba4e63ee3/.github/workflows/greetings.yml"
         }
       ]
     },
@@ -5480,13 +5429,13 @@
       "stars": 2,
       "language": "Java",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-25T20:44:40Z",
-      "updatedAt": "2026-09-22T18:59:07Z",
+      "pushedAt": "2026-09-29T23:05:49Z",
+      "updatedAt": "2026-09-29T19:00:29Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/check-system-print.yml",
-          "url": "https://github.com/jaoafa/jaoTone/blob/edaa4ad1868326bfbcf514eba59d5fc65b725995/.github/workflows/check-system-print.yml"
+          "url": "https://github.com/jaoafa/jaoTone/blob/24d9a51c85901c445800fddf04e3b025a4c49b3c/.github/workflows/check-system-print.yml"
         }
       ]
     },
@@ -5582,13 +5531,13 @@
       "stars": 2,
       "language": "Go Template",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T17:08:10Z",
-      "updatedAt": "2026-09-29T17:07:25Z",
+      "pushedAt": "2026-09-30T17:08:17Z",
+      "updatedAt": "2026-09-30T17:07:30Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/mercury_bot.yml",
-          "url": "https://github.com/openshift-helm-charts/stage/blob/a870f1d3cf6b838d2306d7d60e78ff720ee66d05/.github/workflows/mercury_bot.yml"
+          "url": "https://github.com/openshift-helm-charts/stage/blob/cb296d882ef504739fbdffcf6e029d8690d07836/.github/workflows/mercury_bot.yml"
         }
       ]
     },
@@ -5616,13 +5565,13 @@
       "stars": 2,
       "language": "Rust",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T17:41:30Z",
-      "updatedAt": "2026-09-29T17:41:40Z",
+      "pushedAt": "2026-09-30T12:53:35Z",
+      "updatedAt": "2026-09-30T12:53:42Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/ci-long.yml",
-          "url": "https://github.com/piemmm/tairix/blob/d240b532b4d24767a0ab9664f000c0d438aece55/.github/workflows/ci-long.yml"
+          "url": "https://github.com/piemmm/tairix/blob/2551b88300eb6c934d45552beafe3cc7ad9ffcd2/.github/workflows/ci-long.yml"
         }
       ]
     },
@@ -5916,23 +5865,6 @@
       ]
     },
     {
-      "fullName": "abinnovision/react-commons",
-      "url": "https://github.com/abinnovision/react-commons",
-      "description": "💥 Collection of common packages for React",
-      "stars": 1,
-      "language": "TypeScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-07-20T09:38:33Z",
-      "updatedAt": "2026-07-20T09:38:29Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/pr-utils.yaml",
-          "url": "https://github.com/abinnovision/react-commons/blob/91c4f2f29dd66e9e066efb9a1682665d1a9d9351/.github/workflows/pr-utils.yaml"
-        }
-      ]
-    },
-    {
       "fullName": "abtion/abt",
       "url": "https://github.com/abtion/abt",
       "description": "Versatile scripts",
@@ -6014,23 +5946,6 @@
         {
           "path": ".github/workflows/pre-commit.yml",
           "url": "https://github.com/Aprilerr/Qiniu/blob/98aaf0a154d22decaaad1f201609be4c7a9ee3ef/.github/workflows/pre-commit.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "arthexis/gway",
-      "url": "https://github.com/arthexis/gway",
-      "description": "Software Project Infraestructure",
-      "stars": 1,
-      "language": "Python",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:12:15Z",
-      "updatedAt": "2026-09-29T18:07:51Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/approved-auto-merge.yml",
-          "url": "https://github.com/arthexis/gway/blob/86025e79d71337fd566cb5647cf73c781b05ffd4/.github/workflows/approved-auto-merge.yml"
         }
       ]
     },
@@ -6228,13 +6143,13 @@
       "stars": 1,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T19:49:26Z",
-      "updatedAt": "2026-09-26T02:28:22Z",
+      "pushedAt": "2026-09-30T18:12:01Z",
+      "updatedAt": "2026-09-30T17:43:52Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-size.yml",
-          "url": "https://github.com/dbalders/TritonAI-Harness/blob/1b11295fe19fe92b7932bfff7441a7f5c25786ff/.github/workflows/pr-size.yml"
+          "url": "https://github.com/dbalders/TritonAI-Harness/blob/0704bea37eea5f95a83c2feac305c460519a7123/.github/workflows/pr-size.yml"
         }
       ]
     },
@@ -6398,7 +6313,7 @@
       "stars": 1,
       "language": "Python",
       "defaultBranch": "develop",
-      "pushedAt": "2026-09-29T17:57:45Z",
+      "pushedAt": "2026-09-30T15:01:40Z",
       "updatedAt": "2026-09-24T11:00:23Z",
       "fork": false,
       "files": [
@@ -6630,6 +6545,23 @@
       ]
     },
     {
+      "fullName": "lukislp/studylife-capture",
+      "url": "https://github.com/lukislp/studylife-capture",
+      "description": "Browser extension: capture selected text/articles into StudyLife as AI-enriched notes",
+      "stars": 1,
+      "language": "TypeScript",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-29T04:00:49Z",
+      "updatedAt": "2026-09-29T03:59:37Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/dependabot-auto-merge.yml",
+          "url": "https://github.com/lukislp/studylife-capture/blob/49379b9b8c171541beb3c51b02b389bf4ad2362d/.github/workflows/dependabot-auto-merge.yml"
+        }
+      ]
+    },
+    {
       "fullName": "M-Sibulski/Easy_Week-PWA",
       "url": "https://github.com/M-Sibulski/Easy_Week-PWA",
       "description": "Easy Week Power App front end",
@@ -6738,7 +6670,7 @@
       "stars": 1,
       "language": "C#",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T13:49:33Z",
+      "pushedAt": "2026-09-30T08:53:21Z",
       "updatedAt": "2026-09-27T08:48:21Z",
       "fork": false,
       "files": [
@@ -6925,13 +6857,30 @@
       "stars": 1,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T07:05:57Z",
-      "updatedAt": "2026-09-28T07:06:00Z",
+      "pushedAt": "2026-09-30T09:49:02Z",
+      "updatedAt": "2026-09-30T09:49:08Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/label-external-contributions.yml",
-          "url": "https://github.com/rohanmalhotracodes/helpmehack/blob/2cee9aa0d850b00cf2430c8130af1da3693e9c22/.github/workflows/label-external-contributions.yml"
+          "url": "https://github.com/rohanmalhotracodes/helpmehack/blob/a6d4b419dacf95d2e544d29c546b5248468b3bb6/.github/workflows/label-external-contributions.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "sailfishos-mirror/protobuf",
+      "url": "https://github.com/sailfishos-mirror/protobuf",
+      "description": "https://github.com/protocolbuffers/protobuf.git",
+      "stars": 1,
+      "language": "C++",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T00:09:49Z",
+      "updatedAt": "2026-09-30T00:07:56Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/README.md",
+          "url": "https://github.com/sailfishos-mirror/protobuf/blob/56d492d7a497515568b643873de7acc1cdd9cca9/.github/workflows/README.md"
         }
       ]
     },
@@ -7010,13 +6959,13 @@
       "stars": 1,
       "language": "C#",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T13:33:48Z",
-      "updatedAt": "2026-09-29T13:27:56Z",
+      "pushedAt": "2026-09-30T09:33:09Z",
+      "updatedAt": "2026-09-30T09:32:40Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/rn-write.lock.yml",
-          "url": "https://github.com/SkylineCommunications/Skyline.DataMiner.Dev.Utils.Solutions.MediaOps.Live/blob/5e8913d36df13e1f725cc47e48cb7e9b9cd42789/.github/workflows/rn-write.lock.yml"
+          "url": "https://github.com/SkylineCommunications/Skyline.DataMiner.Dev.Utils.Solutions.MediaOps.Live/blob/171d274797289295039dec6e0d4def2be142d5e4/.github/workflows/rn-write.lock.yml"
         }
       ]
     },
@@ -7102,23 +7051,6 @@
         {
           "path": ".github/workflows/close_pull_requests.yml",
           "url": "https://github.com/stdlib-js/math-base-special-tand/blob/1ded1e97064b7fceac31cae0b382c7493193e9be/.github/workflows/close_pull_requests.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "stdlib-js/ndarray-base-output-policy-str2enum",
-      "url": "https://github.com/stdlib-js/ndarray-base-output-policy-str2enum",
-      "description": "Return the enumeration constant associated with an output ndarray data type policy string.",
-      "stars": 1,
-      "language": "JavaScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-10T02:53:03Z",
-      "updatedAt": "2026-09-10T02:29:48Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/close_pull_requests.yml",
-          "url": "https://github.com/stdlib-js/ndarray-base-output-policy-str2enum/blob/8cda6522757cb82e56856d23e142cd8cd5473a25/.github/workflows/close_pull_requests.yml"
         }
       ]
     },
@@ -7333,13 +7265,13 @@
       "stars": 1,
       "language": "HTML",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-26T03:54:55Z",
-      "updatedAt": "2026-09-24T08:36:17Z",
+      "pushedAt": "2026-09-30T18:12:18Z",
+      "updatedAt": "2026-09-30T17:38:56Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/ai-pr-safety-gate.yml",
-          "url": "https://github.com/yusuf38bcs-oss/yusuf38bcs-oss.github.io/blob/3b391a6e0739ff31ea879ed0b5871e87c7c5ce7e/.github/workflows/ai-pr-safety-gate.yml"
+          "url": "https://github.com/yusuf38bcs-oss/yusuf38bcs-oss.github.io/blob/8771910b7a11adca87ba495d14b4124d61a8657b/.github/workflows/ai-pr-safety-gate.yml"
         }
       ]
     },
@@ -7412,6 +7344,23 @@
       ]
     },
     {
+      "fullName": "4Luke4/Delvebound",
+      "url": "https://github.com/4Luke4/Delvebound",
+      "description": null,
+      "stars": 0,
+      "language": "GDScript",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T11:05:36Z",
+      "updatedAt": "2026-09-30T11:05:41Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/dependabot-auto-merge.yml",
+          "url": "https://github.com/4Luke4/Delvebound/blob/dae8c4141be0106963bb347cd097b00590e3c507/.github/workflows/dependabot-auto-merge.yml"
+        }
+      ]
+    },
+    {
       "fullName": "aaronckj/Heimdall",
       "url": "https://github.com/aaronckj/Heimdall",
       "description": "Heimdall dashboard with native Authentik OIDC SSO",
@@ -7425,23 +7374,6 @@
         {
           "path": ".github/workflows/call_issue_pr_tracker.yml",
           "url": "https://github.com/aaronckj/Heimdall/blob/7f5ef33a9080bcb5da50bd4a2b847828382d8f6f/.github/workflows/call_issue_pr_tracker.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "aaronkr-navi/Chronicle-PDF",
-      "url": "https://github.com/aaronkr-navi/Chronicle-PDF",
-      "description": "Chronicle PDF - A powerful PDF tool based on Stirling PDF",
-      "stars": 0,
-      "language": "Java",
-      "defaultBranch": "master",
-      "pushedAt": "2026-09-24T02:36:14Z",
-      "updatedAt": "2026-08-19T20:50:59Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/PR-Demo-cleanup.yml",
-          "url": "https://github.com/aaronkr-navi/Chronicle-PDF/blob/7f6a0348e8881f4172d3cebf025358d7ff59c9cc/.github/workflows/PR-Demo-cleanup.yml"
         }
       ]
     },
@@ -7463,19 +7395,36 @@
       ]
     },
     {
-      "fullName": "actions-marketplace-validations/Namchee_konfigured",
-      "url": "https://github.com/actions-marketplace-validations/Namchee_konfigured",
-      "description": null,
+      "fullName": "abyssbugg/PulseUsage",
+      "url": "https://github.com/abyssbugg/PulseUsage",
+      "description": "Independent Usage desktop app project",
       "stars": 0,
-      "language": "Go",
-      "defaultBranch": "master",
-      "pushedAt": "2022-11-25T10:44:03Z",
-      "updatedAt": "2022-11-25T10:44:11Z",
+      "language": "JavaScript",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-18T22:45:37Z",
+      "updatedAt": "2026-07-18T00:18:04Z",
       "fork": false,
       "files": [
         {
-          "path": ".github/workflows/qc.yml",
-          "url": "https://github.com/actions-marketplace-validations/Namchee_konfigured/blob/eb0512dd0ce7b35970864456742e77b510e65fe7/.github/workflows/qc.yml"
+          "path": ".github/workflows/labeler.yml",
+          "url": "https://github.com/abyssbugg/PulseUsage/blob/710686d2d8341640a3e84cc2e66561018db71281/.github/workflows/labeler.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "adhvfed/boa-ligero",
+      "url": "https://github.com/adhvfed/boa-ligero",
+      "description": "Boa is an embeddable Javascript engine written in Rust.",
+      "stars": 0,
+      "language": "Rust",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T02:52:55Z",
+      "updatedAt": "2026-09-01T09:58:02Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/labeler.yml",
+          "url": "https://github.com/adhvfed/boa-ligero/blob/7c542be625dc208b78d78078936a20faffbe9dce/.github/workflows/labeler.yml"
         }
       ]
     },
@@ -7493,23 +7442,6 @@
         {
           "path": ".github/workflows/dependabot-auto-merge.yml",
           "url": "https://github.com/agrechin/gitree/blob/675c50d5e432f3ab3a57053954fc6fe16f8f1866/.github/workflows/dependabot-auto-merge.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "ahtisham02/salesdriver-react",
-      "url": "https://github.com/ahtisham02/salesdriver-react",
-      "description": null,
-      "stars": 0,
-      "language": "JavaScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-11T01:00:55Z",
-      "updatedAt": "2026-08-11T01:01:03Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/ci.yml",
-          "url": "https://github.com/ahtisham02/salesdriver-react/blob/36bcbfd29a6017845daead55f16e8512d0b87263/.github/workflows/ci.yml"
         }
       ]
     },
@@ -7667,23 +7599,6 @@
       ]
     },
     {
-      "fullName": "ankitmodanwall/QR-code-Generate",
-      "url": "https://github.com/ankitmodanwall/QR-code-Generate",
-      "description": null,
-      "stars": 0,
-      "language": "JavaScript",
-      "defaultBranch": "main",
-      "pushedAt": "2025-07-30T11:56:34Z",
-      "updatedAt": "2025-08-15T09:51:21Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/pr_close_greet.yml",
-          "url": "https://github.com/ankitmodanwall/QR-code-Generate/blob/67f12ca06820048071f7cb7f8775c4d3113574ee/.github/workflows/pr_close_greet.yml"
-        }
-      ]
-    },
-    {
       "fullName": "anonkey/docker-wireguard-deluge",
       "url": "https://github.com/anonkey/docker-wireguard-deluge",
       "description": null,
@@ -7765,6 +7680,23 @@
         {
           "path": ".github/workflows/agent-contract-format-gate.yml",
           "url": "https://github.com/APGI-cmy/maturion-isms/blob/b157f01777178ff4d42eeed45e8d97ce5ad4b75a/.github/workflows/agent-contract-format-gate.yml"
+        }
+      ]
+    },
+    {
+      "fullName": "ARSH871-bot/QuizForge",
+      "url": "https://github.com/ARSH871-bot/QuizForge",
+      "description": "Asynchronous quiz and assessment engine. API-first, multi-tenant, built as a Spring Modulith modular monolith.",
+      "stars": 0,
+      "language": "Java",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-30T04:44:05Z",
+      "updatedAt": "2026-09-30T04:44:08Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/pr-title.yml",
+          "url": "https://github.com/ARSH871-bot/QuizForge/blob/c47aaa3e47b64df6455b11ddb03943d1429727e3/.github/workflows/pr-title.yml"
         }
       ]
     },
@@ -8024,23 +7956,6 @@
       ]
     },
     {
-      "fullName": "check1n-com/delegated-management-console_4",
-      "url": "https://github.com/check1n-com/delegated-management-console_4",
-      "description": "Delegated Management Console aka D.M.C.",
-      "stars": 0,
-      "language": "JavaScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-27T10:36:29Z",
-      "updatedAt": "2026-04-28T05:38:18Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/security-scan.yml",
-          "url": "https://github.com/check1n-com/delegated-management-console_4/blob/03f64c9e8dcbe9fe69da3e2691a8dc5ca22141bf/.github/workflows/security-scan.yml"
-        }
-      ]
-    },
-    {
       "fullName": "chelauk/ctj-beagleberg",
       "url": "https://github.com/chelauk/ctj-beagleberg",
       "description": null,
@@ -8081,7 +7996,7 @@
       "stars": 0,
       "language": "JavaScript",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T03:10:43Z",
+      "pushedAt": "2026-09-30T12:07:58Z",
       "updatedAt": "2026-09-13T22:37:40Z",
       "fork": false,
       "files": [
@@ -8098,7 +8013,7 @@
       "stars": 0,
       "language": "JavaScript",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T03:26:17Z",
+      "pushedAt": "2026-09-30T16:55:06Z",
       "updatedAt": "2026-09-29T03:21:02Z",
       "fork": false,
       "files": [
@@ -8313,23 +8228,6 @@
       ]
     },
     {
-      "fullName": "darthShadow/jellyfin",
-      "url": "https://github.com/darthShadow/jellyfin",
-      "description": "Tracking upstream jellyfin with custom patches",
-      "stars": 0,
-      "language": "C#",
-      "defaultBranch": "main",
-      "pushedAt": "2025-11-03T15:29:01Z",
-      "updatedAt": "2025-11-02T20:14:17Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/ci-openapi.yml",
-          "url": "https://github.com/darthShadow/jellyfin/blob/ffe82be7a7a2ea6ab6d0e543f58ecd01df4085ef/.github/workflows/ci-openapi.yml"
-        }
-      ]
-    },
-    {
       "fullName": "DavidVeksler/skill-lint",
       "url": "https://github.com/DavidVeksler/skill-lint",
       "description": "CI linter for AI agent skills: secrets, PII, connector contracts, human-in-the-loop, status-language inflation. A report, not a verdict.",
@@ -8364,19 +8262,19 @@
       ]
     },
     {
-      "fullName": "dawsonblock/NEMO",
-      "url": "https://github.com/dawsonblock/NEMO",
-      "description": null,
+      "fullName": "ddieppa/usage-meter",
+      "url": "https://github.com/ddieppa/usage-meter",
+      "description": "Windows-native AI usage meter (WinUI)",
       "stars": 0,
-      "language": "Rust",
+      "language": "C#",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T10:25:55Z",
-      "updatedAt": "2026-09-19T01:37:00Z",
+      "pushedAt": "2026-09-28T18:55:33Z",
+      "updatedAt": "2026-05-11T22:01:04Z",
       "fork": false,
       "files": [
         {
-          "path": ".github/workflows/pr-labels.yaml",
-          "url": "https://github.com/dawsonblock/NEMO/blob/13944d7d2b1a4bc9aa91fa061bed6fe63fad7979/.github/workflows/pr-labels.yaml"
+          "path": ".github/workflows/labeler.yml",
+          "url": "https://github.com/ddieppa/usage-meter/blob/91933518a67e96bd220c4e547c2fc2947fe11c20/.github/workflows/labeler.yml"
         }
       ]
     },
@@ -8404,13 +8302,13 @@
       "stars": 0,
       "language": "Go",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T09:03:09Z",
-      "updatedAt": "2026-09-28T09:02:24Z",
+      "pushedAt": "2026-09-30T16:46:54Z",
+      "updatedAt": "2026-09-30T16:46:30Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/changelog-by-pull.yml",
-          "url": "https://github.com/deckhouse/deckhouse-test-1/blob/f6dc972d5011f76e2a858fbc8dd0ce0f73a7d26d/.github/workflows/changelog-by-pull.yml"
+          "url": "https://github.com/deckhouse/deckhouse-test-1/blob/fbe844962c59452c094579b40ac413ab03b41dae/.github/workflows/changelog-by-pull.yml"
         }
       ]
     },
@@ -8472,13 +8370,13 @@
       "stars": 0,
       "language": "Shell",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-26T13:20:48Z",
-      "updatedAt": "2026-09-26T13:20:53Z",
+      "pushedAt": "2026-09-30T17:23:30Z",
+      "updatedAt": "2026-09-30T17:23:35Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr_trailer-sync.yml",
-          "url": "https://github.com/Dickinson-comp290/Vue3-WebDev-F26/blob/4bc2289d989e065ba0f2cffcc11d183d6108312c/.github/workflows/pr_trailer-sync.yml"
+          "url": "https://github.com/Dickinson-comp290/Vue3-WebDev-F26/blob/4c531025f0437534f481c09b032989137ca15638/.github/workflows/pr_trailer-sync.yml"
         }
       ]
     },
@@ -8496,6 +8394,23 @@
         {
           "path": ".github/workflows/pr-comment.yaml",
           "url": "https://github.com/disisdsid/sidrepo/blob/59d45dac2ba8aa2243cef45175b05afaca3cec22/.github/workflows/pr-comment.yaml"
+        }
+      ]
+    },
+    {
+      "fullName": "dlalic/flood",
+      "url": "https://github.com/dlalic/flood",
+      "description": "Elevation void fill",
+      "stars": 0,
+      "language": "Rust",
+      "defaultBranch": "master",
+      "pushedAt": "2026-03-31T17:56:29Z",
+      "updatedAt": "2026-03-31T17:56:33Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/auto-merge.yml",
+          "url": "https://github.com/dlalic/flood/blob/a3694629ab2cf9c735286165c2cb4b41e17c0b01/.github/workflows/auto-merge.yml"
         }
       ]
     },
@@ -8710,7 +8625,7 @@
       "stars": 0,
       "language": "Go",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T10:11:28Z",
+      "pushedAt": "2026-09-30T13:12:10Z",
       "updatedAt": "2026-09-29T10:11:39Z",
       "fork": false,
       "files": [
@@ -8734,23 +8649,6 @@
         {
           "path": ".github/workflows/cla.yml",
           "url": "https://github.com/Evoke4350/cursor-onboarding-kit/blob/338e4fc65b02cdd5a86eb418920e736932acd727/.github/workflows/cla.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "falkcorp/magnet-handler",
-      "url": "https://github.com/falkcorp/magnet-handler",
-      "description": null,
-      "stars": 0,
-      "language": "Go",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-01T14:08:12Z",
-      "updatedAt": "2026-08-30T22:26:15Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/scripts/ci_workflow.py",
-          "url": "https://github.com/falkcorp/magnet-handler/blob/742bd2611a9783152222277ca6b7822dd65720f5/.github/workflows/scripts/ci_workflow.py"
         }
       ]
     },
@@ -8819,23 +8717,6 @@
         {
           "path": ".github/workflows/test.yaml",
           "url": "https://github.com/FPGSchiba/terraform-aws-lambda/blob/648559a8b95175dbf538ac464708d7f62ac2e55f/.github/workflows/test.yaml"
-        }
-      ]
-    },
-    {
-      "fullName": "Froggen-Yaron/fly-action",
-      "url": "https://github.com/Froggen-Yaron/fly-action",
-      "description": null,
-      "stars": 0,
-      "language": "JavaScript",
-      "defaultBranch": "main",
-      "pushedAt": "2025-09-21T11:47:55Z",
-      "updatedAt": "2025-12-01T15:44:16Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/frogbot.yml",
-          "url": "https://github.com/Froggen-Yaron/fly-action/blob/eaf32369a651189d87402015903137bdefe172aa/.github/workflows/frogbot.yml"
         }
       ]
     },
@@ -8948,13 +8829,13 @@
       "stars": 0,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T10:34:41Z",
-      "updatedAt": "2026-09-29T10:33:45Z",
+      "pushedAt": "2026-09-30T07:05:53Z",
+      "updatedAt": "2026-09-30T07:05:32Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/welcome_message.yml",
-          "url": "https://github.com/Hapag-Lloyd/rds-proxy-password-rotation/blob/8a74bf19354ead01215c64a529aa9ec2ba044144/.github/workflows/welcome_message.yml"
+          "url": "https://github.com/Hapag-Lloyd/rds-proxy-password-rotation/blob/3e6e20b790ab8b10b32f6f8736b41d1edf542a4b/.github/workflows/welcome_message.yml"
         }
       ]
     },
@@ -8989,6 +8870,23 @@
         {
           "path": ".github/workflows/latest-changes.yml.off",
           "url": "https://github.com/haripriyamoorthy/chat/blob/d5f101df63f363034f00d57181f2d7366d25d8a4/.github/workflows/latest-changes.yml.off"
+        }
+      ]
+    },
+    {
+      "fullName": "hedra-labs/hedra-cli",
+      "url": "https://github.com/hedra-labs/hedra-cli",
+      "description": "The CLI for accessing the Hedra inference & training platform",
+      "stars": 0,
+      "language": "Rust",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-29T22:51:29Z",
+      "updatedAt": "2026-09-29T22:51:31Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/autoland-regen.yml",
+          "url": "https://github.com/hedra-labs/hedra-cli/blob/a24aa5186d6910baf446a59f32c5a734340ee289/.github/workflows/autoland-regen.yml"
         }
       ]
     },
@@ -9282,23 +9180,6 @@
       ]
     },
     {
-      "fullName": "jbcom/lifecycle-kit",
-      "url": "https://github.com/jbcom/lifecycle-kit",
-      "description": "The stage stack: chemistry, biological scaling laws, compositional form, pigment, and 2.5D assembly.",
-      "stars": 0,
-      "language": "TypeScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-28T15:31:51Z",
-      "updatedAt": "2026-09-28T15:32:38Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/automerge.yml",
-          "url": "https://github.com/jbcom/lifecycle-kit/blob/32f5042de9916890de8b14f1bdcc54ac1e54d9d9/.github/workflows/automerge.yml"
-        }
-      ]
-    },
-    {
       "fullName": "jbendercb/scikit-learn-25102",
       "url": "https://github.com/jbendercb/scikit-learn-25102",
       "description": null,
@@ -9526,13 +9407,13 @@
       "stars": 0,
       "language": "HTML",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:03:03Z",
-      "updatedAt": "2026-09-29T17:18:47Z",
+      "pushedAt": "2026-09-30T18:12:08Z",
+      "updatedAt": "2026-09-29T20:41:52Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/workflow-action-guard.yml",
-          "url": "https://github.com/KooshaPari/PhenoRegistry/blob/85d7cd00cf59c379c05b740e8130a85b0d5bd31b/.github/workflows/workflow-action-guard.yml"
+          "url": "https://github.com/KooshaPari/PhenoRegistry/blob/53d373bf1a6856d7cd2bbe052751a065c535d636/.github/workflows/workflow-action-guard.yml"
         }
       ]
     },
@@ -9611,7 +9492,7 @@
       "stars": 0,
       "language": "TypeScript",
       "defaultBranch": "wally/v38.2.0",
-      "pushedAt": "2026-09-15T20:04:04Z",
+      "pushedAt": "2026-09-29T22:30:31Z",
       "updatedAt": "2026-05-07T21:25:26Z",
       "fork": false,
       "files": [
@@ -9669,23 +9550,6 @@
         {
           "path": ".github/workflows/backport_sqren.yml",
           "url": "https://github.com/LCDsoft/testAction/blob/7ab359f545e91e27e6fbf2da8415e71a6d09fe3b/.github/workflows/backport_sqren.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "LeeJehwan/superset",
-      "url": "https://github.com/LeeJehwan/superset",
-      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
-      "stars": 0,
-      "language": "Python",
-      "defaultBranch": "master",
-      "pushedAt": "2026-08-14T03:43:32Z",
-      "updatedAt": "2026-08-14T03:49:09Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/label-merge-conflicts.yml",
-          "url": "https://github.com/LeeJehwan/superset/blob/a188e9473abc1402ac2de3cc5933da6c4352e486/.github/workflows/label-merge-conflicts.yml"
         }
       ]
     },
@@ -9758,19 +9622,19 @@
       ]
     },
     {
-      "fullName": "LukaHarambasic/meeting-transcriber",
-      "url": "https://github.com/LukaHarambasic/meeting-transcriber",
-      "description": "Meeting transcriber for macOS, personal variant of pasrom/meeting-transcriber tuned for in-person hybrid meetings",
+      "fullName": "lukislp/studylife-alexa",
+      "url": "https://github.com/lukislp/studylife-alexa",
+      "description": "Alexa Skill backend for StudyLife: voice control for focus timer and study sessions, account-linked via a self-built OAuth wrapper.",
       "stars": 0,
-      "language": "Swift",
+      "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T02:26:53Z",
-      "updatedAt": "2026-09-29T02:26:52Z",
+      "pushedAt": "2026-09-30T11:05:20Z",
+      "updatedAt": "2026-09-30T11:05:24Z",
       "fork": false,
       "files": [
         {
-          "path": ".github/workflows/e2e-app.yml",
-          "url": "https://github.com/LukaHarambasic/meeting-transcriber/blob/b1400d4f829197fb0175797b186e973ab656ac4c/.github/workflows/e2e-app.yml"
+          "path": ".github/workflows/dependabot-auto-merge.yml",
+          "url": "https://github.com/lukislp/studylife-alexa/blob/467614f9510c72c89a54ee0104355d8b2cf9cac2/.github/workflows/dependabot-auto-merge.yml"
         }
       ]
     },
@@ -9781,30 +9645,30 @@
       "stars": 0,
       "language": "CSS",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T07:48:14Z",
-      "updatedAt": "2026-09-29T07:48:18Z",
+      "pushedAt": "2026-09-30T07:13:17Z",
+      "updatedAt": "2026-09-30T07:13:21Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/dependabot-auto-merge.yml",
-          "url": "https://github.com/lukislp/studylife-developers/blob/ea2672ebd5698d6a8bd62bdff278509b9a4d844e/.github/workflows/dependabot-auto-merge.yml"
+          "url": "https://github.com/lukislp/studylife-developers/blob/42f38d321b474cf0031629dcfaabe053cc05c4e0/.github/workflows/dependabot-auto-merge.yml"
         }
       ]
     },
     {
-      "fullName": "lukislp/studylife-webhooks",
-      "url": "https://github.com/lukislp/studylife-webhooks",
-      "description": "Webhook delivery microservice for StudyLife: fires signed HTTP callbacks on session/goal events to your own automations (Zapier, n8n, Discord, etc.)",
+      "fullName": "lukislp/studylife-focus",
+      "url": "https://github.com/lukislp/studylife-focus",
+      "description": "Browser extension: blocks distracting sites and switches Spotify playlists based on your StudyLife focus session",
       "stars": 0,
-      "language": "Python",
+      "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T12:07:51Z",
-      "updatedAt": "2026-09-29T12:07:55Z",
+      "pushedAt": "2026-09-29T09:12:59Z",
+      "updatedAt": "2026-09-29T09:11:05Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/dependabot-auto-merge.yml",
-          "url": "https://github.com/lukislp/studylife-webhooks/blob/664cb31676ecd332d5f8d50fdd4d10fdb5fb4925/.github/workflows/dependabot-auto-merge.yml"
+          "url": "https://github.com/lukislp/studylife-focus/blob/724d3324e4209927b952ca4791672d4bbc5d9036/.github/workflows/dependabot-auto-merge.yml"
         }
       ]
     },
@@ -9815,13 +9679,13 @@
       "stars": 0,
       "language": "Java",
       "defaultBranch": "custom",
-      "pushedAt": "2026-09-29T18:08:34Z",
-      "updatedAt": "2026-09-29T14:33:06Z",
+      "pushedAt": "2026-09-30T18:09:28Z",
+      "updatedAt": "2026-09-30T14:13:37Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/labeler-auto.yml",
-          "url": "https://github.com/Lunafreliana/mage-custom/blob/fb245c590fa17b7c6fca0cd17c3e7b5950bee195/.github/workflows/labeler-auto.yml"
+          "url": "https://github.com/Lunafreliana/mage-custom/blob/bf97f2dda94d965598aabcfec50d114dd38d1a8d/.github/workflows/labeler-auto.yml"
         }
       ]
     },
@@ -9849,13 +9713,13 @@
       "stars": 0,
       "language": "Lua",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-28T19:52:53Z",
-      "updatedAt": "2026-09-28T19:52:56Z",
+      "pushedAt": "2026-09-30T00:21:51Z",
+      "updatedAt": "2026-09-30T00:21:56Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/dependabot-automerge.yml",
-          "url": "https://github.com/macbre/pyrabot/blob/b8b312c3a5c576eed22967ff2800c2927bde7114/.github/workflows/dependabot-automerge.yml"
+          "url": "https://github.com/macbre/pyrabot/blob/4c67f255de1924589d01d84a3d852507c8cf4632/.github/workflows/dependabot-automerge.yml"
         }
       ]
     },
@@ -9985,30 +9849,13 @@
       "stars": 0,
       "language": "C",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T18:09:34Z",
+      "pushedAt": "2026-09-29T18:16:39Z",
       "updatedAt": "2026-09-28T05:35:24Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/dependabot-auto-merge.yml",
           "url": "https://github.com/metaneutrons/BFS/blob/444f1a5bbed2d025c990ba737d43a60bad7965b6/.github/workflows/dependabot-auto-merge.yml"
-        }
-      ]
-    },
-    {
-      "fullName": "michaelloistl/agent-workflows",
-      "url": "https://github.com/michaelloistl/agent-workflows",
-      "description": "Label a GitHub issue, get a coding agent to do the work. Reusable GitHub Actions workflows that run Claude Code against your tracker",
-      "stars": 0,
-      "language": "TypeScript",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-25T09:04:25Z",
-      "updatedAt": "2026-08-21T17:23:21Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/agent-update-branch.yml",
-          "url": "https://github.com/michaelloistl/agent-workflows/blob/27df95bf21de1d719032efe04e42ce0ffeba1f6b/.github/workflows/agent-update-branch.yml"
         }
       ]
     },
@@ -10376,13 +10223,13 @@
       "stars": 0,
       "language": "Java",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T17:45:23Z",
-      "updatedAt": "2026-09-29T17:44:58Z",
+      "pushedAt": "2026-09-30T10:17:23Z",
+      "updatedAt": "2026-09-30T10:17:28Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/close-invalid-prs.yml",
-          "url": "https://github.com/OneLiteFeatherNET/Titan/blob/e1846caaa0965b3d310d6002a1a3e3e6884dae4f/.github/workflows/close-invalid-prs.yml"
+          "url": "https://github.com/OneLiteFeatherNET/Titan/blob/66a4032d283be7e24a9cb8a5593270d301c9d3ee/.github/workflows/close-invalid-prs.yml"
         }
       ]
     },
@@ -10591,13 +10438,30 @@
       ]
     },
     {
+      "fullName": "portswigger-data/cube",
+      "url": "https://github.com/portswigger-data/cube",
+      "description": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
+      "stars": 0,
+      "language": "Rust",
+      "defaultBranch": "master",
+      "pushedAt": "2026-09-22T09:15:49Z",
+      "updatedAt": "2026-09-22T09:16:25Z",
+      "fork": false,
+      "files": [
+        {
+          "path": ".github/workflows/labeler.yml",
+          "url": "https://github.com/portswigger-data/cube/blob/218d4a0689b5a146d7146ce6794cf5be718fd32e/.github/workflows/labeler.yml"
+        }
+      ]
+    },
+    {
       "fullName": "praetorian-inc/public-workflows",
       "url": "https://github.com/praetorian-inc/public-workflows",
       "description": "This repo hosts shared workflows that could be called from other repos (both public or private) of Praetorian",
       "stars": 0,
       "language": "Shell",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T09:40:31Z",
+      "pushedAt": "2026-09-30T12:16:27Z",
       "updatedAt": "2026-09-29T09:40:12Z",
       "fork": false,
       "files": [
@@ -10714,23 +10578,6 @@
       ]
     },
     {
-      "fullName": "quanthumtech/qai-v2",
-      "url": "https://github.com/quanthumtech/qai-v2",
-      "description": null,
-      "stars": 0,
-      "language": "TypeScript",
-      "defaultBranch": "master",
-      "pushedAt": "2026-05-13T04:45:58Z",
-      "updatedAt": "2026-05-13T04:30:59Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/review.yml",
-          "url": "https://github.com/quanthumtech/qai-v2/blob/9b0f446b302691201de9bfdf5541461f584a20fa/.github/workflows/review.yml"
-        }
-      ]
-    },
-    {
       "fullName": "Rakibul0909/beef",
       "url": "https://github.com/Rakibul0909/beef",
       "description": "Beef",
@@ -10822,13 +10669,13 @@
       "stars": 0,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T16:06:51Z",
-      "updatedAt": "2026-09-29T16:11:47Z",
+      "pushedAt": "2026-09-30T15:48:29Z",
+      "updatedAt": "2026-09-30T15:48:34Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/auto-merge.yml",
-          "url": "https://github.com/rob531/zo-sentinel/blob/a7bc32da667dae23d60c931355bfe734f452eabf/.github/workflows/auto-merge.yml"
+          "url": "https://github.com/rob531/zo-sentinel/blob/17be6e4d26a4af95d9cdd101ef852b52232ba7f3/.github/workflows/auto-merge.yml"
         }
       ]
     },
@@ -10924,13 +10771,13 @@
       "stars": 0,
       "language": "Ruby",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T00:43:46Z",
-      "updatedAt": "2026-09-29T00:43:53Z",
+      "pushedAt": "2026-09-30T00:48:03Z",
+      "updatedAt": "2026-09-30T00:48:08Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/labeler.yml",
-          "url": "https://github.com/sailfishos-mirror/ruby/blob/c3a285fcf2722ecb0808ad3b24b0f7b6a8b7b95f/.github/workflows/labeler.yml"
+          "url": "https://github.com/sailfishos-mirror/ruby/blob/be5482e32f0ef23d55368ef2930fcbf8e7f92d5c/.github/workflows/labeler.yml"
         }
       ]
     },
@@ -11003,30 +10850,13 @@
       ]
     },
     {
-      "fullName": "scilus/sf-tractomics-documentation",
-      "url": "https://github.com/scilus/sf-tractomics-documentation",
-      "description": "sf-tractomics documentation",
-      "stars": 0,
-      "language": "MDX",
-      "defaultBranch": "main",
-      "pushedAt": "2026-06-20T13:09:59Z",
-      "updatedAt": "2026-06-20T13:10:04Z",
-      "fork": false,
-      "files": [
-        {
-          "path": ".github/workflows/deploy.yml",
-          "url": "https://github.com/scilus/sf-tractomics-documentation/blob/5f8f202b93f8f21f0932da4e7b5362305f6a5829/.github/workflows/deploy.yml"
-        }
-      ]
-    },
-    {
       "fullName": "scitex-ai/scitex-template",
       "url": "https://github.com/scitex-ai/scitex-template",
       "description": "Project template cloner + code-snippet library",
       "stars": 0,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-22T02:15:49Z",
+      "pushedAt": "2026-09-30T16:16:55Z",
       "updatedAt": "2026-09-02T11:58:34Z",
       "fork": false,
       "files": [
@@ -11060,13 +10890,13 @@
       "stars": 0,
       "language": "JavaScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T14:27:54Z",
-      "updatedAt": "2026-09-29T12:16:50Z",
+      "pushedAt": "2026-09-30T03:06:45Z",
+      "updatedAt": "2026-09-30T03:06:47Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/workflow-checks-main.yml",
-          "url": "https://github.com/semnil/audio-interface-compare-site/blob/d32abe49a8624c682eae7c726d8c1f2c093b9999/.github/workflows/workflow-checks-main.yml"
+          "url": "https://github.com/semnil/audio-interface-compare-site/blob/f76d9730b715609c32cb553cda25f23154b30d57/.github/workflows/workflow-checks-main.yml"
         }
       ]
     },
@@ -11162,7 +10992,7 @@
       "stars": 0,
       "language": "C++",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-23T00:41:28Z",
+      "pushedAt": "2026-09-30T00:47:56Z",
       "updatedAt": "2025-10-22T19:14:14Z",
       "fork": false,
       "files": [
@@ -11179,7 +11009,7 @@
       "stars": 0,
       "language": "C++",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-23T00:44:18Z",
+      "pushedAt": "2026-09-30T00:51:11Z",
       "updatedAt": "2025-10-22T19:14:14Z",
       "fork": false,
       "files": [
@@ -11298,13 +11128,13 @@
       "stars": 0,
       "language": "PowerShell",
       "defaultBranch": "master",
-      "pushedAt": "2026-09-29T18:16:59Z",
-      "updatedAt": "2026-09-29T18:17:05Z",
+      "pushedAt": "2026-09-30T12:59:15Z",
+      "updatedAt": "2026-09-30T12:59:19Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pull-request.yml",
-          "url": "https://github.com/SorYoshino/unofficial-bucket/blob/302b1c6e2c473484686761bf74a174dbec92d095/.github/workflows/pull-request.yml"
+          "url": "https://github.com/SorYoshino/unofficial-bucket/blob/7c0d3f7e03b8e2f06276e59db5962c26cc207745/.github/workflows/pull-request.yml"
         }
       ]
     },
@@ -11400,17 +11230,13 @@
       "stars": 0,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T08:24:38Z",
-      "updatedAt": "2026-09-29T00:42:52Z",
+      "pushedAt": "2026-09-30T12:51:47Z",
+      "updatedAt": "2026-09-30T12:51:51Z",
       "fork": false,
       "files": [
         {
-          "path": ".github/workflows/agents-81-gate-followups.yml",
-          "url": "https://github.com/stranske/Fine-Art-Archive/blob/713bb12a2ce694946b57980267bb89498f7a5939/.github/workflows/agents-81-gate-followups.yml"
-        },
-        {
           "path": ".github/workflows/agents-guard.yml",
-          "url": "https://github.com/stranske/Fine-Art-Archive/blob/713bb12a2ce694946b57980267bb89498f7a5939/.github/workflows/agents-guard.yml"
+          "url": "https://github.com/stranske/Fine-Art-Archive/blob/ddc47e83076487877283acaff98caeb166a1af98/.github/workflows/agents-guard.yml"
         }
       ]
     },
@@ -11421,17 +11247,13 @@
       "stars": 0,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-28T00:33:46Z",
-      "updatedAt": "2026-09-28T00:33:49Z",
+      "pushedAt": "2026-09-30T12:53:36Z",
+      "updatedAt": "2026-09-30T12:53:42Z",
       "fork": false,
       "files": [
         {
-          "path": ".github/workflows/agents-81-gate-followups.yml",
-          "url": "https://github.com/stranske/Manager-Database/blob/4e384dbe341f7e1dc855409b785f505e8844ea2c/.github/workflows/agents-81-gate-followups.yml"
-        },
-        {
           "path": ".github/workflows/agents-guard.yml",
-          "url": "https://github.com/stranske/Manager-Database/blob/4e384dbe341f7e1dc855409b785f505e8844ea2c/.github/workflows/agents-guard.yml"
+          "url": "https://github.com/stranske/Manager-Database/blob/4b7f8c462d11b5abf7a32d90b00ebaaf128c49bc/.github/workflows/agents-guard.yml"
         }
       ]
     },
@@ -11442,17 +11264,13 @@
       "stars": 0,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T01:14:48Z",
-      "updatedAt": "2026-09-27T02:32:15Z",
+      "pushedAt": "2026-09-30T13:39:53Z",
+      "updatedAt": "2026-09-30T13:42:27Z",
       "fork": false,
       "files": [
         {
-          "path": ".github/workflows/agents-81-gate-followups.yml",
-          "url": "https://github.com/stranske/Orchestrator/blob/b149c29931a0f13c6ab6ecf02ae722e13f53bbdc/.github/workflows/agents-81-gate-followups.yml"
-        },
-        {
           "path": ".github/workflows/agents-guard.yml",
-          "url": "https://github.com/stranske/Orchestrator/blob/b149c29931a0f13c6ab6ecf02ae722e13f53bbdc/.github/workflows/agents-guard.yml"
+          "url": "https://github.com/stranske/Orchestrator/blob/b3cf68bac9e935e7cb4e1659695a756a9a25a2af/.github/workflows/agents-guard.yml"
         }
       ]
     },
@@ -11463,17 +11281,17 @@
       "stars": 0,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T16:33:27Z",
-      "updatedAt": "2026-09-28T20:41:31Z",
+      "pushedAt": "2026-09-30T13:00:50Z",
+      "updatedAt": "2026-09-30T13:01:37Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/agents-81-gate-followups.yml",
-          "url": "https://github.com/stranske/Portable-Alpha-Extension-Model/blob/c818bd3eccba61a3320487d89bcaf455dd36674b/.github/workflows/agents-81-gate-followups.yml"
+          "url": "https://github.com/stranske/Portable-Alpha-Extension-Model/blob/a97ba410460023cb0dee5b9087c9be2abf6af5e8/.github/workflows/agents-81-gate-followups.yml"
         },
         {
           "path": ".github/workflows/agents-guard.yml",
-          "url": "https://github.com/stranske/Portable-Alpha-Extension-Model/blob/c818bd3eccba61a3320487d89bcaf455dd36674b/.github/workflows/agents-guard.yml"
+          "url": "https://github.com/stranske/Portable-Alpha-Extension-Model/blob/a97ba410460023cb0dee5b9087c9be2abf6af5e8/.github/workflows/agents-guard.yml"
         }
       ]
     },
@@ -11484,17 +11302,13 @@
       "stars": 0,
       "language": "Python",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-29T16:33:23Z",
-      "updatedAt": "2026-09-28T20:24:45Z",
+      "pushedAt": "2026-09-30T12:52:07Z",
+      "updatedAt": "2026-09-30T12:52:12Z",
       "fork": false,
       "files": [
         {
-          "path": ".github/workflows/agents-81-gate-followups.yml",
-          "url": "https://github.com/stranske/Travel-Plan-Permission/blob/42c1e9dcdc00eb2610aed5c9aa73f515c1d82a44/.github/workflows/agents-81-gate-followups.yml"
-        },
-        {
           "path": ".github/workflows/agents-guard.yml",
-          "url": "https://github.com/stranske/Travel-Plan-Permission/blob/42c1e9dcdc00eb2610aed5c9aa73f515c1d82a44/.github/workflows/agents-guard.yml"
+          "url": "https://github.com/stranske/Travel-Plan-Permission/blob/4fc442f60f384f478a567ba219d2b77072fce81e/.github/workflows/agents-guard.yml"
         }
       ]
     },
@@ -11845,13 +11659,13 @@
       "stars": 0,
       "language": "TypeScript",
       "defaultBranch": "dev",
-      "pushedAt": "2026-09-29T17:03:49Z",
-      "updatedAt": "2026-09-29T15:50:58Z",
+      "pushedAt": "2026-09-30T17:59:55Z",
+      "updatedAt": "2026-09-30T17:59:58Z",
       "fork": false,
       "files": [
         {
           "path": ".github/workflows/pr-label.yml",
-          "url": "https://github.com/urineun-jigeum-bildeujung/web/blob/ec2778e807809fb95c26501bd241b7216ac62049/.github/workflows/pr-label.yml"
+          "url": "https://github.com/urineun-jigeum-bildeujung/web/blob/c02313a4f2c52c4e625e8acf3cf9a764c4cfb7b9/.github/workflows/pr-label.yml"
         }
       ]
     },
@@ -11879,7 +11693,7 @@
       "stars": 0,
       "language": "TypeScript",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-23T05:46:11Z",
+      "pushedAt": "2026-09-30T05:46:33Z",
       "updatedAt": "2026-09-02T13:27:55Z",
       "fork": false,
       "files": [
