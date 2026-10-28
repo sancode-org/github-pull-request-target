@@ -362,7 +362,7 @@ async function fetchQueryIntoScan(
     repositoriesAfterShard: scan.filesByRepo.size,
   };
 
-  for (let page = 1; page <= maxPages; ) {
+  for (let page = 1; page <= maxPages;) {
     if (Date.now() >= deadline) break;
 
     const remainingPages = maxPages - page + 1;

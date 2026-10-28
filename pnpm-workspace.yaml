@@ -12,3 +12,15 @@ shellEmulator: true
 strictDepBuilds: true
 
 trustPolicy: no-downgrade
+
+overrides:
+  seroval-plugins: 1.7.1
+  seroval: 1.7.1
+  browserslist: ^4.28.7
+  js-yaml: ^4.3.2
+  source-map-js: ^1.2.2
+  '@babel/core': ^7.29.6
+  baseline-browser-mapping: ^2.11.0
+
+trustPolicyExclude:
+  - semver@6.3.1
