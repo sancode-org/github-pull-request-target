@@ -27,13 +27,10 @@
       devShells = forAllSystems (
         { pkgs }:
         with pkgs;
-        let
-          nodejs = if pkgs ? nodejs_24 then nodejs_24 else pkgs.nodejs;
-        in
         {
           default = mkShell {
             packages = [
-              nodejs
+              nodejs_latest
               pnpm
               bun
               gh
