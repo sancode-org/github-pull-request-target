@@ -1,5 +1,7 @@
 # GitHub pull_request_target Finder
 
+`pull_request_target` runs a workflow with the base repository's permissions and secrets, which makes it convenient for labeling, commenting, and other trusted automation, but dangerous as soon as the workflow checks out or executes code from an untrusted pull request (the "Pwn Request" pattern). The risk is real: in early 2026 the `hackerbot-claw` bot [exploited GitHub Actions workflows across major open source repositories](https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation), and on 2026-05-11 attackers published 84 malicious versions of 42 `@tanstack/*` npm packages by chaining `pull_request_target`, Actions cache poisoning, and OIDC token extraction ([TanStack postmortem](https://tanstack.com/blog/npm-supply-chain-compromise-postmortem)). This index exists to make that attack surface visible. Appearing here does not prove a repository is exploitable, but it is a signal that the workflow deserves careful review.
+
 A static Cloudflare Workers app that lists public repositories whose workflow files contain the `pull_request_target` trigger.
 
 ## Features
