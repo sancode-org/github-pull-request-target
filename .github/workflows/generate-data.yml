@@ -53,10 +53,10 @@ jobs:
       GITHUB_TOKEN: ${{ github.token }}
     steps:
       - name: Checkout
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        uses: actions/checkout@v7.0.1
         with:
           token: ${{ github.token }}
-      - uses: ./.github/actions/setup-nix
+      - uses: $/.github/actions/setup-nix
       - name: Generate static data
         run: nix run .#generate-data -- --scan-mode "$SCAN_MODE" --minutes "$SCAN_MINUTES"
       - name: Print generated data summary
