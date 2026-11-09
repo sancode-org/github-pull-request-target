@@ -48,7 +48,7 @@ jobs:
       SCAN_MODE: ${{ github.event.inputs.scan_mode || 'limited' }}
       MAX_SEARCH_RESULTS: ${{ github.event.inputs.max_search_results || '1000' }}
       SCAN_MINUTES: ${{ github.event.inputs.scan_minutes || '10' }}
-      SEARCH_DELAY_MS: '65000'
+      SEARCH_DELAY_MS: '0'
       RETRY_ATTEMPTS: '5'
       GITHUB_TOKEN: ${{ github.token }}
     steps:

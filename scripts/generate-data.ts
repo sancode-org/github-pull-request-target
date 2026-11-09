@@ -219,7 +219,10 @@ async function githubJson<T = SearchResponse>(
       }
       const delay = Math.min(
         rateLimitMaxWaitMs,
-        Math.max(retryAfterMs(response, body) + rateLimitSafetyMs, resetDelayMs(rateLimit)),
+        Math.max(
+          retryAfterMs(response, body) + rateLimitSafetyMs,
+          rateLimit.remaining === 0 ? resetDelayMs(rateLimit) : 0,
+        ),
       );
       if (Date.now() + delay >= rateLimitDeadlineMs) {
         throw new Error(`GitHub API ${response.status}: rate limit budget exhausted: ${body}`);
