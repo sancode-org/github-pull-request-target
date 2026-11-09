@@ -89,7 +89,9 @@ const retryDelayMs = Number(Bun.env.RETRY_DELAY_MS ?? '65000');
 const retryAttempts = Number(Bun.env.RETRY_ATTEMPTS ?? '3');
 const searchDelayMs = Number(Bun.env.SEARCH_DELAY_MS ?? '0');
 const searchMinIntervalMs = Number(Bun.env.SEARCH_MIN_INTERVAL_MS ?? '7000');
-const rateLimitRetryAttempts = Number(Bun.env.RATE_LIMIT_RETRY_ATTEMPTS ?? '8');
+const rateLimitRetryAttempts = Number(Bun.env.RATE_LIMIT_RETRY_ATTEMPTS ?? '30');
+const rateLimitMaxWaitMs = Number(Bun.env.RATE_LIMIT_MAX_WAIT_MS ?? '180000');
+const rateLimitDeadlineMs = Date.now() + Number(Bun.env.RATE_LIMIT_BUDGET_MINUTES ?? '45') * 60_000;
 const fetchTimeoutMs = Number(Bun.env.FETCH_TIMEOUT_MS ?? '30000');
 const detailBatchSize = Number(Bun.env.DETAIL_BATCH_SIZE ?? '100');
 const pageBurstSize = Number(Bun.env.PAGE_BURST_SIZE ?? '5');
@@ -215,13 +217,15 @@ async function githubJson<T = SearchResponse>(
       if (rateLimitedCount > rateLimitRetryAttempts) {
         throw new Error(`GitHub API ${response.status}: ${body || response.statusText}`);
       }
-      const delay = Math.max(
-        retryAfterMs(response, body) + rateLimitSafetyMs,
-        resetDelayMs(rateLimit),
-        retryDelayMs * rateLimitedCount,
+      const delay = Math.min(
+        rateLimitMaxWaitMs,
+        Math.max(retryAfterMs(response, body) + rateLimitSafetyMs, resetDelayMs(rateLimit)),
       );
+      if (Date.now() + delay >= rateLimitDeadlineMs) {
+        throw new Error(`GitHub API ${response.status}: rate limit budget exhausted: ${body}`);
+      }
       console.warn(
-        `GitHub API ${response.status} rate limited; retrying in ${Math.ceil(delay / 1000)}s (${rateLimitedCount}/${rateLimitRetryAttempts})`,
+        `GitHub API ${response.status} rate limited (${JSON.stringify(rateLimit)}, retry-after=${response.headers.get('retry-after')}, body=${body.slice(0, 120)}); retrying in ${Math.ceil(delay / 1000)}s (${rateLimitedCount}/${rateLimitRetryAttempts})`,
       );
       await sleep(delay);
       continue;
