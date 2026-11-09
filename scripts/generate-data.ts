@@ -88,6 +88,8 @@ const scanMinutes = Number(args.get('minutes') ?? Bun.env.SCAN_MINUTES ?? '10');
 const retryDelayMs = Number(Bun.env.RETRY_DELAY_MS ?? '65000');
 const retryAttempts = Number(Bun.env.RETRY_ATTEMPTS ?? '3');
 const searchDelayMs = Number(Bun.env.SEARCH_DELAY_MS ?? '0');
+const searchMinIntervalMs = Number(Bun.env.SEARCH_MIN_INTERVAL_MS ?? '7000');
+const rateLimitRetryAttempts = Number(Bun.env.RATE_LIMIT_RETRY_ATTEMPTS ?? '8');
 const fetchTimeoutMs = Number(Bun.env.FETCH_TIMEOUT_MS ?? '30000');
 const detailBatchSize = Number(Bun.env.DETAIL_BATCH_SIZE ?? '100');
 const pageBurstSize = Number(Bun.env.PAGE_BURST_SIZE ?? '5');
@@ -145,6 +147,32 @@ function resetDelayMs(rateLimit: RateLimit | null | undefined): number {
   return Math.max(0, rateLimit.resetAt - Date.now() + rateLimitSafetyMs);
 }
 
+function retryAfterMs(response: Response, body: string): number {
+  const header = Number(response.headers.get('retry-after') ?? '0');
+  if (header > 0) return header * 1000;
+  const match = /try again in ([\d.]+)s/.exec(body);
+  return match ? Math.ceil(Number(match[1]) * 1000) : 0;
+}
+
+function isRateLimited(response: Response, body: string, rateLimit: RateLimit): boolean {
+  if (response.status === 429) return true;
+  if (response.status !== 403) return false;
+  return (
+    response.headers.has('retry-after') ||
+    rateLimit.remaining === 0 ||
+    /rate limit|abuse/i.test(body)
+  );
+}
+
+let searchGate: Promise<void> = Promise.resolve();
+
+function throttleSearch(url: string): Promise<void> {
+  if (!url.startsWith('https://api.github.com/search/')) return Promise.resolve();
+  const turn = searchGate.then(() => sleep(searchMinIntervalMs));
+  searchGate = turn;
+  return turn;
+}
+
 function isRetryableStatus(status: number): boolean {
   return (
     status === 403 ||
@@ -160,12 +188,14 @@ async function githubJson<T = SearchResponse>(
   url: string,
   { retry = retryAttempts }: { retry?: number } = {},
 ): Promise<{ data: T; rateLimit: RateLimit }> {
-  for (let attempt = 1; attempt <= retry; attempt += 1) {
+  let rateLimitedCount = 0;
+  for (let attempt = 1; attempt <= retry + rateLimitedCount; attempt += 1) {
     let response: Response;
     try {
+      await throttleSearch(url);
       response = await fetchWithTimeout(url, { headers: headers() });
     } catch (error) {
-      if (attempt < retry) {
+      if (attempt < retry + rateLimitedCount) {
         console.warn(
           `GitHub API request failed; retrying in ${Math.ceil(retryDelayMs / 1000)}s (${attempt}/${retry}): ${error}`,
         );
@@ -179,8 +209,26 @@ async function githubJson<T = SearchResponse>(
     if (response.ok) return { data: (await response.json()) as T, rateLimit };
 
     const body = await response.text();
+
+    if (isRateLimited(response, body, rateLimit)) {
+      rateLimitedCount += 1;
+      if (rateLimitedCount > rateLimitRetryAttempts) {
+        throw new Error(`GitHub API ${response.status}: ${body || response.statusText}`);
+      }
+      const delay = Math.max(
+        retryAfterMs(response, body) + rateLimitSafetyMs,
+        resetDelayMs(rateLimit),
+        retryDelayMs * rateLimitedCount,
+      );
+      console.warn(
+        `GitHub API ${response.status} rate limited; retrying in ${Math.ceil(delay / 1000)}s (${rateLimitedCount}/${rateLimitRetryAttempts})`,
+      );
+      await sleep(delay);
+      continue;
+    }
+
     const delay = resetDelayMs(rateLimit);
-    if (isRetryableStatus(response.status) && attempt < retry) {
+    if (isRetryableStatus(response.status) && attempt < retry + rateLimitedCount) {
       console.warn(
         `GitHub API ${response.status}; retrying in ${Math.ceil(delay / 1000)}s (${attempt}/${retry})`,
       );
