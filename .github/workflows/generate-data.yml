@@ -3,15 +3,6 @@ name: Generate repository index
 on:
   schedule:
     - cron: '0 */12 * * *'
-  push:
-    branches:
-      - main
-    paths:
-      - 'scripts/**'
-      - '.github/workflows/generate-data.yml'
-      - '.github/actions/setup-nix/**'
-      - 'flake.nix'
-      - 'flake.lock'
   workflow_dispatch:
     inputs:
       scan_mode:
