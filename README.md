@@ -4,7 +4,13 @@
 
 A static Cloudflare Workers app that lists public repositories whose workflow files contain the `pull_request_target` trigger.
 
+![Top page with the index status and the repository counts](images/overview.png)
+
+The screenshots on this page use placeholder data.
+
 ## Features
+
+![Repository list filtered to TypeScript, with the matching workflow files of one repository expanded](images/repositories.png)
 
 - Generates a static repository index in GitHub Actions.
 - Searches GitHub workflow files for `pull_request_target`.
